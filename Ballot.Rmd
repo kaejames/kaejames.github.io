@@ -1,0 +1,65 @@
+---
+title: "2022 Polling Average & Women Voters"
+output: html_document
+--- 
+
+
+Women voters are important and more important to Democrats winning. 
+
+Using __Echelon Insights, Fox News Poll and Monmouth University Poll__, I looked at the generic ballot beginning from Jan 2022 and compared the two party support. 
+
+The Republicans led the generic poll from Jan to June because they averaged over 40% support from women. 
+
+The support fell in July and August to a low of 38%. Democrats support from women maintained throughout the year hovering between 47% and at it’s highest 51%. 
+
+The supreme court ruling on abortion may have had a negative effect on republicans women support.
+
+Democrats took their first lead in July by **0.5%** and extended the lead to ***2.3%*** by the end of August thanks to a 9.7% lead with women. 
+
+
+```{r setup, include=FALSE}
+library(dygraphs)
+library(flexdashboard)  
+library(readxl)
+library(ggplot2)
+library(plotly)
+library(knitr)
+library(plyr)
+library(scales) 
+library(lubridate) 
+library(dplyr)
+```
+```{r, echo=FALSE}
+genericbal<-read_excel(("~/Documents/RSTUDIO/allaboutnumbers/Gender2022.xlsx"), sheet = "AVG")
+knitr::opts_chunk$set(error = TRUE)
+```
+
+ 
+```{r,out.width='100%', echo=FALSE}
+p<-ggplot(genericbal)+
+  geom_line(aes(x=Date, y=AVG_Ballot,colour=Party, group=Party), lwd=2) +
+  labs(x="", y="", title = "Polling Average:Democrats vs Republicans",
+       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
+  scale_color_manual(values =c("navy","red")) +
+  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
+        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
+        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
+        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13))
+  
+ggplotly(p, tooltip ="AVG_Ballot") 
+``` 
+
+```{r,out.width='100%', echo=FALSE}
+W<-ggplot(genericbal)+
+  geom_line(aes(x=Date, y=AVG_WMN,colour=Party, group=Party), lwd=2) +
+  labs(x="", y="", title = "Polling Average: Women Voters Support",
+       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
+  scale_color_manual(values =c("navy","red")) +
+  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
+        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
+        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
+        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13))
+ggplotly(W, tooltip ="AVG_WMN") 
+``` 

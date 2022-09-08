@@ -1,0 +1,6 @@
+---
+title: "James is my name"
+fontsize: 30pts
+---
+
+**Visualizations and analysis through charts and maps!** 
