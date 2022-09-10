@@ -12,10 +12,10 @@ navbar:
   right:
   - text: "Github"
     icon: fa-github
-    href: https://github.com/kaejames.github.io 
+    href: https://github.com/kaejames/kaejames.github.io 
   - text: "Twitter"
     icon: fa-twitter
-    href: twitter.com/james_polls
+    href: https://twitter.com/james_polls 
   - text: "Contact"
     icon: fa-envelope-o
     href: mailto:boozmike@yahoo.com
