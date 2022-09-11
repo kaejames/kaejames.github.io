@@ -9,6 +9,8 @@ navbar:
     href:  about.html 
   - text: "2022 MIDTERMS"
     href:  Ballot.html 
+  - text: "MAPS"
+    href:  maps.html
   right:
   - text: "Github"
     icon: fa-github
@@ -25,4 +27,8 @@ output:
   html_document:
     theme: flatly
     highlight: textmate  
+    include:
+        after_body: footer2.html 
+    css: [styles.css]
+self_contained: true 
      

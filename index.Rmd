@@ -1,6 +1,11 @@
 ---
 title: "Hello"
 ---
+<br>
+<center>Welcome to my website!
+</center>
+<br>
+<p style="text-align:center;"><img src="docs/snowfance.JPG" style ="width:1000%" alt="Logo"></p>
 
-## Welcome to my website!
+
  
