@@ -15,19 +15,30 @@ Maps I made for election results using mainly QGIS which is an open source progr
 
 --------------------------------
 
-## <span style="color: #484E66;"> Hillsborough County </span> 
+## <span style="color: #484E66;"> Hillsborough County,FL </span> 
 
-### <span style="color: #484E66;"> County Circuit Judicial Election </span>
+### <span style="color: #484E66;"> Judicial Election </span>
 
 <img src="docs/hillsborough_jacob.svg" style="width:100%; solid; margin-center: 20px" align="center">
 
-The primary for this nonpartisan judicial race was on August 23, 2022. Nancy L.Jacobs defeated incumbent Judge Smith 51.9% to 48.1%.Hillsborough County Judge Jared Smith made natinal headlines in the New Year[2022] after he denied abortion to a 17 yr old due to her "B" grades which he said it proved the the teenager was not smart to make her decisions. Smith's ruling was later overturned. In April, local attorney Nancy L.Jacobs filed to run against Smith. Although this a nonpartisan position, Jacobs received support from local Democratic party activists and abortion rights advocates.
+The primary for this nonpartisan judicial race was on August 23, 2022. Nancy L.Jacobs defeated incumbent Judge Smith 51.9% to 48.1%.Hillsborough County Judge Jared Smith made national headlines in the New Year[2022] after he denied abortion to a 17 yr old due to her "B" grades which he said it proved the the teenager was not smart to make her decisions. Smith's ruling was later overturned. In April, local attorney Nancy L.Jacobs filed to run against Smith. Although this a nonpartisan position, Jacobs received support from local Democratic party activists and abortion rights advocates.
 <br>
 
-## <span style="color: #484E66;"> Australia Elections </span> 
+## <span style="color: #484E66;"> Australian Elections </span> 
 
 ### <span style="color: #484E66;"> Boothby </span> 
 
 <img src="docs/boothbyALP.svg" style="width:100%; solid; margin-center: 20px" align="center">
 
 Australia held it’s federal election on May 21, 2022. The conservative coalition government lost about 20 seats to the green party, indepedent candidates and the labor party. One of the wins Labor secured was the seat of Boothby in South Australia state that had been held by conservative parties for seven decades. Louise Miller-Frost won this seat by 6% on the second preference.
+
+<br>
+
+## <span style="color: #484E66;"> Suffolk County,MA </span>
+
+### <span style="color: #484E66;"> District Attorney Primary </span>
+
+<img src="docs/2018_suffolk.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+
+Rachel Rollins won the district attorney primary with plurality by defeating three other candidates. Rollins won Cities of Boston and Chelsea but lost the smaller cities of Revere and Winthrop. Rollins win was important to the reform movement as she supported criminal justice reform. She went on to win in November and in 2021 President Biden nominated her to be Massachusetts State Attorney, the senate approved her nomination in 2022. 
