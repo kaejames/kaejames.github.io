@@ -30,7 +30,7 @@ library(lubridate)
 library(dplyr)
 ```
 ```{r, echo=FALSE}
-genericbal<-read_excel(("~/Documents/RSTUDIO/allaboutnumbers/Gender2022.xlsx"), sheet = "AVG")
+genericbal<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Gender2022.xlsx"), sheet = "AVG")
 knitr::opts_chunk$set(error = TRUE)
 ```
 

@@ -42,3 +42,15 @@ Australia held it’s federal election on May 21, 2022. The conservative coaliti
 
 
 Rachel Rollins won the district attorney primary with plurality by defeating three other candidates. Rollins won Cities of Boston and Chelsea but lost the smaller cities of Revere and Winthrop. Rollins win was important to the reform movement as she supported criminal justice reform. She went on to win in November and in 2021 President Biden nominated her to be Massachusetts State Attorney, the senate approved her nomination in 2022. 
+
+<br>
+
+## <span style="color: #C9184A;"> City of Chelsea, MA </span>
+
+### <span style="color: #FF4D6D;"> Democratic Primary </span>
+
+<img src="docs/chelsea_gov.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+
+Attorney General and gubernatorial candidate **Maura Healy** under performed in Suffolk County where she got less than 80% of the vote mainly because she did the worst in city of Chelsea. Healy was held under 60% while running unopposed since her opponent dropped out of the race. It's not surprising Healy didn't do well in Chelsea since it's one of the most liberal city in the county and she was deemed not liberal enough.
+
