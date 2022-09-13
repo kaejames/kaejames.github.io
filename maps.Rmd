@@ -49,8 +49,20 @@ Rachel Rollins won the district attorney primary with plurality by defeating thr
 
 ### <span style="color: #FF4D6D;"> Democratic Primary </span>
 
+Maura Healy was running unopposed in the Massachusetts democratic gubernatorial primary
+
 <img src="docs/chelsea_gov.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 
 Attorney General and gubernatorial candidate **Maura Healy** under performed in Suffolk County where she got less than 80% of the vote mainly because she did the worst in city of Chelsea. Healy was held under 60% while running unopposed since her opponent dropped out of the race. It's not surprising Healy didn't do well in Chelsea since it's one of the most liberal city in the county and she was deemed not liberal enough.
 
+
+## <span style="color: #3A86FF;"> Florida House District 109 </span>
+
+### <span style="color: #3A86FF;"> Democratic Primary </span>
+
+The primary was held on August 8th, 2022 between an incumbent and newcomer.
+
+<img src="docs/HD_109.svg" style="width:100%; solid; margin-center: 350px" align="center"> 
+
+Democratic lawyer Ashley Gantt defeated longtime incumbent James Bush III in the primary for the house district 109. Bush faced the primary because he voted to limit abortion to 15 weeks, only democrat in the Florida house to do that. He also voted for laws attacking LBGTQ and workers that were push by DeSantis and the republicans. James had been in the house for years and had the backing of heavyweights in the district. 

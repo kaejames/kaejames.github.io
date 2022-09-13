@@ -9,7 +9,7 @@ navbar:
     href:  about.html 
   - text: "2022 MIDTERMS"
     href:  Ballot.html 
-  - text: "MAPS"
+  - text: "ELECTION MAPS"
     href:  maps.html
   right:
   - text: "Github"
