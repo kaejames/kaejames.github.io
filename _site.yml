@@ -1,5 +1,6 @@
 name: "jamesprojects"
 output_dir: "." 
+date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 navbar:
   title: "jamesprojects"
   left:
