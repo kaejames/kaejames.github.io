@@ -6,8 +6,6 @@ navbar:
   left:
   - text: "Home"
     href:  index.html
-  - text: "About"
-    href:  about.html 
   - text: "2022 MIDTERMS"
     href:  Ballot.html 
   - text: "ELECTION MAPS"

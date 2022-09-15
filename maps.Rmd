@@ -47,7 +47,7 @@ Rachel Rollins won the district attorney primary with plurality by defeating thr
 
 ## <span style="color: #C9184A;"> City of Chelsea, MA </span>
 
-### <span style="color: #FF4D6D;"> Democratic Primary </span>
+### <span style="color: #FF4D6D;"> Gubernatorial Primary </span>
 
 Maura Healy was running unopposed in the Massachusetts democratic gubernatorial primary
 
@@ -56,6 +56,17 @@ Maura Healy was running unopposed in the Massachusetts democratic gubernatorial 
 
 Attorney General and gubernatorial candidate **Maura Healy** under performed in Suffolk County where she got less than 80% of the vote mainly because she did the worst in city of Chelsea. Healy was held under 60% while running unopposed since her opponent dropped out of the race. It's not surprising Healy didn't do well in Chelsea since it's one of the most liberal city in the county and she was deemed not liberal enough.
 
+<br>
+
+### <span style="color: #FF4D6D;"> District Attorney Primary </span>
+
+For the Suffolk County District Attorney, it was appointed incumbent DA Hayden vs city of Boston council member Ricardo Arroyo.
+
+<img src="docs/suffolk_da.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Arroyo won the city of Chelsea by 10% as he struggled and lost Boston, Revere and Winthrop. Hayden won the District Attorney primary to fill out the remaining 2yrs vacated by Rachel Rollins as she was appointed to be State Attorney. 
+
+<br>
 
 ## <span style="color: #3A86FF;"> Florida House District 109 </span>
 
