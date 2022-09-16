@@ -7,7 +7,7 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 <br>
 Women voters are important and more important to Democrats winning. 
 
-Using __Echelon Insights, Fox News Poll and Monmouth University Poll__, I looked at the generic ballot beginning from Jan 2022 and compared the two party support. 
+Using __Echelon Insights, Fox News Poll, NYT/Siena and Monmouth University Poll__, I looked at the generic ballot beginning from Jan 2022 and compared the two party support. 
 
 The Republicans led the generic poll from Jan to June because they averaged over 40% support from women. 
 
@@ -41,14 +41,15 @@ knitr::opts_chunk$set(error = TRUE)
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(genericbal)+
   geom_line(aes(x=Date, y=Congress,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Congressional Midterms 2022",
+  labs(x="", y="", title = "Who is leading?",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
         plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
         legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
         axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
-        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13))
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
+  scale_y_continuous(limits = c(35,55))
   
 ggplotly(p, tooltip =c("Congress", "Date"))  
 ``` 
@@ -65,6 +66,7 @@ W<-ggplot(genericbal)+
         plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
         legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
         axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
-        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13))
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13))+
+   scale_y_continuous(limits = c(35,55))
 ggplotly(W, tooltip = c("Women", "Date"))  
 ``` 
