@@ -15,36 +15,45 @@ Maps I made for election results using mainly QGIS which is an open source progr
 
 --------------------------------
 
-## <span style="color: #484E66;"> Hillsborough County,FL </span> 
+## <span style="color: #4361ee;"> Hillsborough County,FL </span> 
 
-### <span style="color: #484E66;"> Judicial Election </span>
+### <span style="color: #4361ee;"> Judicial Election </span>
 
-<img src="docs/hillsborough_jacob.svg" style="width:100%; solid; margin-center: 20px" align="center">
+The primary for this nonpartisan judicial race was on August 23, 2022. Nancy L.Jacobs defeated incumbent Judge Smith 52% to 48%.
 
-The primary for this nonpartisan judicial race was on August 23, 2022. Nancy L.Jacobs defeated incumbent Judge Smith 51.9% to 48.1%.Hillsborough County Judge Jared Smith made national headlines in the New Year[2022] after he denied abortion to a 17 yr old due to her "B" grades which he said it proved the the teenager was not smart to make her decisions. Smith's ruling was later overturned. In April, local attorney Nancy L.Jacobs filed to run against Smith. Although this a nonpartisan position, Jacobs received support from local Democratic party activists and abortion rights advocates.
+<img src="docs/HC.png" style="width:100%; solid; margin-center: 20px" align="center">
+
+Hillsborough County Judge Jared Smith made national headlines in the New Year[2022] after he denied abortion to a 17 yr old due to her "B" grades which he said it proved the the teenager was not smart to make her decisions. Smith's ruling was later overturned. In April, local attorney Nancy L.Jacobs filed to run against Smith. Although this a nonpartisan position, Jacobs received support from local Democratic party, activists and abortion rights advocates.
 
 <br>
 
 ### <span style="color: #D90429;"> Congressional Primary </span>
+
 A look at congressional district 15 part of Hillsborough county primary vote for the two parties.
 
 <img src="docs/FL15.png" style="width:100%; solid; margin-center: 20px" align="center"> 
 
-The republicans won the primary vote by 4%, part of this county is republican leaning compared to the west which is democratic leaning. It looks like some republicans voted in the race for the circuit county judge and voted for attorney Nancy L. Jacobs as she did well in the CD15. 
+The republicans won the primary vote by 4%, the eastern side of the county and part of the district is republican. This district is one of four competitive district, Trump won it by 3.1% while he lost national by 4.5%. 
 
-## <span style="color: #484E66;"> Australian Elections </span> 
+<br> 
 
-### <span style="color: #484E66;"> Boothby </span> 
+## <span style="color: #f72585;"> Australian Elections </span> 
+
+### <span style="color: #f72585;"> Boothby Constituency </span> 
+
+A historic win for Australia Labor party candidate **Louise Miller-Frost**.
 
 <img src="docs/boothbyALP.svg" style="width:100%; solid; margin-center: 20px" align="center">
 
-Australia held it’s federal election on May 21, 2022. The conservative coalition government lost about 20 seats to the green party, indepedent candidates and the labor party. One of the wins Labor secured was the seat of Boothby in South Australia state that had been held by conservative parties for seven decades. Louise Miller-Frost won this seat by 6% on the second preference.
+Australia held it’s federal election on May 21, 2022. The conservative coalition government lost about 20 seats to the green party, independent candidates and the labor party. One of the wins Labor secured was the seat of Boothby in South Australia state that had been held by conservative parties for seven decades. Louise Miller-Frost won this seat by 6% on the second preference.
 
 <br>
 
-## <span style="color: #484E66;"> Suffolk County,MA </span>
+## <span style="color: #16db65;"> Suffolk County,MA </span>
 
-### <span style="color: #484E66;"> District Attorney Primary </span>
+### <span style="color: #16db65;"> District Attorney Primary </span>
+
+2018 Suffolk County District Attorney primary dominated by criminal justice reform advocates and a protege. 
 
 <img src="docs/2018_suffolk.png" style="width:100%; solid; margin-center: 350px" align="center">
 
