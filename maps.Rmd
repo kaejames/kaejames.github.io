@@ -37,6 +37,16 @@ The republicans won the primary vote by 4%, the eastern side of the county and p
 
 <br> 
 
+### <span style="color: #D90429;"> Congressional vs County Judge Primary </span>
+
+Comparing the two primaries for the Florida Congressional district 15. 
+
+<img src="docs/FL15_judge.png" style="width:100%; solid; margin-center: 20px" align="center"> 
+
+Although the combined republicans won the county party by 4%, County Judge Smith won it by 1.8% or by 1,237 votes over challenger Jacobs. The county judge race attracted more voters compared to the congressional. About ***7,251 more voters cast their ballots for the county judge race***. 
+
+<br>
+
 ## <span style="color: #f72585;"> Australian Elections </span> 
 
 ### <span style="color: #f72585;"> Boothby Constituency </span> 
