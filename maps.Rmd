@@ -22,7 +22,15 @@ Maps I made for election results using mainly QGIS which is an open source progr
 <img src="docs/hillsborough_jacob.svg" style="width:100%; solid; margin-center: 20px" align="center">
 
 The primary for this nonpartisan judicial race was on August 23, 2022. Nancy L.Jacobs defeated incumbent Judge Smith 51.9% to 48.1%.Hillsborough County Judge Jared Smith made national headlines in the New Year[2022] after he denied abortion to a 17 yr old due to her "B" grades which he said it proved the the teenager was not smart to make her decisions. Smith's ruling was later overturned. In April, local attorney Nancy L.Jacobs filed to run against Smith. Although this a nonpartisan position, Jacobs received support from local Democratic party activists and abortion rights advocates.
+
 <br>
+
+### <span style="color: #D90429;"> Congressional Primary </span>
+A look at congressional district 15 part of Hillsborough county primary vote for the two parties.
+
+<img src="docs/FL15.png" style="width:100%; solid; margin-center: 20px" align="center"> 
+
+The republicans won the primary vote by 4%, part of this county is republican leaning compared to the west which is democratic leaning. It looks like some republicans voted in the race for the circuit county judge and voted for attorney Nancy L. Jacobs as she did well in the CD15. 
 
 ## <span style="color: #484E66;"> Australian Elections </span> 
 
