@@ -43,7 +43,7 @@ Comparing the two primaries for the Florida Congressional district 15.
 
 <img src="docs/FL15_judge.png" style="width:100%; solid; margin-center: 20px" align="center"> 
 
-Although the combined republicans won the county party by 4%, County Judge Smith won it by 1.8% or by 1,237 votes over challenger Jacobs. The county judge race attracted more voters compared to the congressional. About ***7,251 more voters cast their ballots for the county judge race***. 
+Although the combined republicans won the county party by 4%, County Judge Smith won it by 1.8% or by 1,237 votes over challenger Jacobs. The county judge race attracted more voters compared to the congressional. About ***7,251 more voters cast their ballots for the county judge race***, Jacobs got **4,268(58.9%)** and Smith got **2,983(41.1%)**. There weere voters who were motivated by abortion and cast their votes against Smith but not on the congressional primary.  
 
 <br>
 
@@ -76,12 +76,12 @@ Rachel Rollins won the district attorney primary with plurality by defeating thr
 
 ### <span style="color: #FF4D6D;"> Gubernatorial Primary </span>
 
-Maura Healy was running unopposed in the Massachusetts democratic gubernatorial primary
+Maura Healey was running unopposed in the Massachusetts democratic gubernatorial primary
 
 <img src="docs/chelsea_gov.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 
-Attorney General and gubernatorial candidate **Maura Healy** under performed in Suffolk County where she got less than 80% of the vote mainly because she did the worst in city of Chelsea. Healy was held under 60% while running unopposed since her opponent dropped out of the race. It's not surprising Healy didn't do well in Chelsea since it's one of the most liberal city in the county and she was deemed not liberal enough.
+Attorney General and gubernatorial candidate **Maura Healey** under performed in Suffolk County where she got less than 80% of the vote mainly because she did the worst in city of Chelsea. Healy was held under 60% while running unopposed since her opponent dropped out of the race. It's not surprising Healey didn't do well in Chelsea since it's one of the most liberal city in the county and she was deemed not liberal enough. 
 
 <br>
 
