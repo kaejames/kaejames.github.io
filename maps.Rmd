@@ -113,7 +113,7 @@ Democratic lawyer Ashley Gantt defeated longtime incumbent James Bush III in the
 
 Seoul City mayoral election was held on June 1st, 2022.
 
-<img src="docs/seoul2022_3.png" style="width:100%; solid; margin-center: 350px" align="center">
+<img src="docs/seoul2022_3.png" style="width:100%; solid; margin-center: 350px" align="center"> 
 
-Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5% 
+Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5%. The turnout for the mayoral electon was just 53% compared to the 70%> for presidential election.  
 
