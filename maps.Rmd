@@ -104,3 +104,16 @@ The primary was held on August 8th, 2022 between an incumbent and newcomer.
 <img src="docs/HD_109.svg" style="width:100%; solid; margin-center: 350px" align="center"> 
 
 Democratic lawyer Ashley Gantt defeated longtime incumbent James Bush III in the primary for the house district 109. Bush faced the primary because he voted to limit abortion to 15 weeks, only democrat in the Florida house to do that. He also voted for laws attacking LBGTQ and workers that were push by DeSantis and the republicans. James had been in the house for years and had the backing of heavyweights in the district. 
+
+<br>
+
+## <span style="color: #f72585;"> Seoul </span>
+
+### <span style="color: #f72585;"> 2022 Mayoral Election </span>
+
+Seoul City mayoral election was held on June 1st, 2022.
+
+<img src="docs/seoul2022_3.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5% 
+

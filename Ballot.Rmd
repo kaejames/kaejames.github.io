@@ -5,17 +5,16 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 --- 
 
 <br>
-Women voters are important and more important to Democrats winning. 
 
-Using __Echelon Insights, Fox News Poll, NYT/Siena and Monmouth University Poll__, I looked at the generic ballot beginning from Jan 2022 and compared the two party support. 
+Polling average of the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena and Monmouth University Poll__. These are high quality pollsters with a great record when it comes to polls conducted the past two years especially Echelon, Fox and Monmouth for their Virginia 2021 Gubernatorial election. 
 
-The Republicans led the generic poll from Jan to June because they averaged over 40% support from women. 
+<br>
 
-The support fell in July and August to a low of 38%. Democrats support from women maintained throughout the year hovering between 47% and at it’s highest 51%. 
+The Republicans led the polling average from late January to early July because they averaged over 40% support from women, gasoline prices increase and high inflation. The supreme court ruling on abortion at the end of June had a negative effect on republicans women support as they fell below 40%.
 
-The supreme court ruling on abortion may have had a negative effect on republicans women support.
+<br> 
 
-Democrats took their first lead in July by **0.5%** and have extended the lead to ***2.3%*** by the end of August thanks to strong women support. 
+Democrats took their first lead in July 18th by **0.5%** and continue to lead. In August 23rd,2022, Democrats won the special election for the New York 19th district that Biden had won 1.6% in 2020 vs Trump and a district repulicans were meant to win to flip the house. This seat was rated Toss Up to Lean R and polling indicated a big Republican win. The win showed the environment was changing in Democrats favor with democratic voters energized since the Dobbs ruling and polls have also followed.   
 
 ---------------------------------------------------------
 
@@ -33,14 +32,14 @@ library(lubridate)
 library(dplyr)
 ```
 ```{r, echo=FALSE}
-genericbal<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "average") 
+genericbal<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "daily") 
 knitr::opts_chunk$set(error = TRUE)
 ```
 
  
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(genericbal)+
-  geom_line(aes(x=Date, y=Congress,colour=Party, group=Party), lwd=2) +
+  geom_line(aes(x=Date, y=Ballot,colour=Party, group=Party), lwd=2) +
   labs(x="", y="", title = "Who is leading?",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
@@ -51,10 +50,13 @@ p<-ggplot(genericbal)+
         plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
   scale_y_continuous(limits = c(35,55))
   
-ggplotly(p, tooltip =c("Congress", "Date"))  
+ggplotly(p, tooltip =c("Ballot", "Date"))  
 ``` 
 
 -------------------------------------------------------
+Women voters are important and more important to Democrats winning, they will need a double digit edge against the Republicans in November to win.
+
+<br>
 
 ```{r,out.width='100%', echo=FALSE}
 W<-ggplot(genericbal)+
