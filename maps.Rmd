@@ -107,7 +107,7 @@ Democratic lawyer Ashley Gantt defeated longtime incumbent James Bush III in the
 
 <br>
 
-## <span style="color: #f72585;"> Seoul </span>
+## <span style="color: #f72585;"> Seoul, South Korea </span>
 
 ### <span style="color: #f72585;"> 2022 Mayoral Election </span>
 
@@ -138,5 +138,16 @@ The Republican primary featured tv host Dr.Oz, businessman Dave McCormick and Yo
 <img src="docs/phillyprimgop.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 Since Philadelphia is a strong Democratic city, many precincts didn't have votes especialy the black populated areas shaded in yellow. There were also many precincts where the three candidates tied the vote that is shaded black. It will be interesting to see how Dr.Oz will do in November against Fetterman. 
+
+<br>
+
+### <span style="color: #f72585;"> 2016 U.S Senate General Election </span>
+
+A look at the 2016 senate race between incumbent Senator Toomey vs Democratic candidate McGinty in the most republican area of Philadelphia.
+
+<img src="docs/Philly_16_SEN.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Wards 58 & 66th are in the most republican area of Philadelphia, they are represented in the City Council by longtime republican Brian O'Neill as part of the 10th district. Councilor O'Neill is also the minority leader in the city hall. The area is a white working class area, with a majority of Irish-Americans but also other ethnic whites, asians, black and latino growing population. Sen Toomey won the 66th by a larger margin but barely won the 58th. 
+
 
 
