@@ -115,5 +115,28 @@ Seoul City mayoral election was held on June 1st, 2022.
 
 <img src="docs/seoul2022_3.png" style="width:100%; solid; margin-center: 350px" align="center"> 
 
-Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5%. The turnout for the mayoral electon was just 53% compared to the 70%> for presidential election.  
+Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5%. The turnout for the mayoral electon was just 53% compared to the 70%> for presidential election. 
+
+<br>
+
+## <span style="color: #f72585;"> City of Philadelphia, PA </span>
+
+The statewide and local primaries were held on May 17th, 2022 across the state. The turnout in Philadelphia was just 23%. In the senatorial primary, Democrats got 87.7% and the Republicans got 12.3% out of 248k total ballots cast. 
+
+### <span style="color: #4361ee;"> Democratic Senate Primary </span>
+
+The Democratic primary for the senate was between the Lt.Gov Fetterman, State Rep Kenyatta and Congressman Lamb. Fetterman beat Kenyatta by more than 2% and went on to win the state primary. Fetterman did well in the white, liberal and working class areas, while Kenyatta and Lamb did well in black and latino areas respectively. 
+
+<img src="docs/phillydemprim.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+<br> 
+
+### <span style="color: #f72585;"> Republican Senate Primary </span>
+
+The Republican primary featured tv host Dr.Oz, businessman Dave McCormick and YouTuber rightwing activist Kathy Barnette. Dr.Oz easily won Philadelphia that ultimately gave him the edge statewide against McCormick. Maybe Dr.Oz did well in the city since he lived across the river in New Jersey?lol.  
+
+<img src="docs/phillyprimgop.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Since Philadelphia is a strong Democratic city, many precincts didn't have votes especialy the black populated areas shaded in yellow. There were also many precincts where the three candidates tied the vote that is shaded black. It will be interesting to see how Dr.Oz will do in November against Fetterman. 
+
 
