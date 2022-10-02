@@ -6,7 +6,7 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 
 <br>
 
-Polling average of the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal and Monmouth University Poll__. These are high quality pollsters with a great record when it comes to polls conducted the past two years especially Echelon, Fox and Monmouth for their Virginia 2021 Gubernatorial election. 
+Polling average of the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal,Selzer&Co and Monmouth University Poll__. These are high quality pollsters with a great record when it comes to polls conducted the past two years especially Echelon, Fox and Monmouth for their Virginia 2021 Gubernatorial election. 
 
 <br>
 
@@ -44,7 +44,7 @@ knitr::opts_chunk$set(error = TRUE)
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(genericbal)+
   geom_line(aes(x=Date, y=Ballot,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Who is leading?",
+  labs(x="", y="", title = "Who is leading? - Daily Tracking",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -65,7 +65,7 @@ ggplotly(p, tooltip =c("Ballot", "Date"))
 ```{r,out.width='100%', echo=FALSE}
 W<-ggplot(genericbal)+
   geom_line(aes(x=Date, y=Women,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Who do women support for Congress?",
+  labs(x="", y="", title = "Women support for Congress? - Daily Tracking",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -85,7 +85,7 @@ ggplotly(W, tooltip = c("Women", "Date"))
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(monthly)+
   geom_line(aes(x=Date, y=Congress,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Who is leading?",
+  labs(x="", y="", title = "Who is leading? - Monthly Tracking",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -101,7 +101,7 @@ ggplotly(p, tooltip =c("Congress", "Date"))
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(monthly)+
   geom_line(aes(x=Date, y=Women,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Who do women support for Congress?",
+  labs(x="", y="", title = "Women support for Congress? - Monthly Tracking",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
