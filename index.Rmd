@@ -4,7 +4,7 @@ output: html_document
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 ---
 <br>
-President Biden approval tracking from January 2021 after he became the president. Tracking all registered voters and voters under the age of 35. The polling firms used are **Fox News Polls, Monmouth University, Quinnipiac University,Echelon Insights, Marist Polls and NYT/Sienna**.
+President Biden approval tracking from January 2021 after he became the president. Tracking all registered voters and voters under the age of 35. The polling firms used are **Fox News Polls, Monmouth University, Quinnipiac University,Echelon Insights, Marist College and NYT/Sienna**.
 </br>
 
 -----------------------------
@@ -31,10 +31,12 @@ under35<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet
 knitr::opts_chunk$set(error = TRUE)
 ```
 
+<br>
+
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(approval)+
   geom_line(aes(x=Date, y=Results,colour=Key, group=Key), lwd=2) +
-  labs(x="", y="", title = "Approval Tracking",
+  labs(x="", y="", title = "Biden Job Approval",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("green","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -42,17 +44,17 @@ p<-ggplot(approval)+
         legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
         axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
         plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
-  scale_y_continuous(limits = c(35,60)) 
+  scale_y_continuous(limits = c(30,60)) 
   
 ggplotly(p, tooltip =c("Results", "Date"))  
 ``` 
 
-<br> 
+</br> 
 
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(under35)+
   geom_line(aes(x=Date, y=Results,colour=Key, group=Key), lwd=2) +
-  labs(x="", y="", title = "Approval Tracking - Under 35",
+  labs(x="", y="", title = "Biden Job Approval-Under 35yrs",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("green","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),

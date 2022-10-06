@@ -1,8 +1,8 @@
-name: "jamesprojects"
+name: "KAEJAMES"
 output_dir: "." 
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 navbar:
-  title: "jamesprojects"
+  title: "KAEJAMES"
   left:
   - text: "BIDEN"
     href:  index.html
