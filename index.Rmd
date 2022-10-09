@@ -30,12 +30,19 @@ knitr::opts_chunk$set(error = TRUE)
 under35<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet = "U35AVG") 
 knitr::opts_chunk$set(error = TRUE)
 ```
+```{r, echo=FALSE}
+Biden<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet = "Biden") 
+knitr::opts_chunk$set(error = TRUE)
+```
+
+
 
 <br>
 
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(approval)+
-  geom_line(aes(x=Date, y=Results,colour=Key, group=Key), lwd=2) +
+  geom_line(aes(x=Date, y=Results,colour=Key), lwd=2) +
+  
   labs(x="", y="", title = "Biden Job Approval",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("green","indianred2")) +

@@ -149,13 +149,22 @@ Since Philadelphia is a strong Democratic city, many precincts didn't have votes
 
 <br>
 
-### <span style="color: #f72585;"> 2016 U.S Senate General Election </span>
+## <span style="color: #660000;"> Oklahoma County, Oklahoma </span>
 
-A look at the 2016 senate race between incumbent Senator Toomey vs Democratic candidate McGinty in the most republican area of Philadelphia.
+Here we look at the 2018 Gubernatorial and Superintendent of Public Instruction for the state of Oklahoma. Both republican candidates won their races statewide but only, then republican Joy Hofmeister won this county.
 
-<img src="docs/Philly_16_SEN.png" style="width:100%; solid; margin-center: 350px" align="center">
+<img src="docs/OKCGOVSOPI.png" style="width:100%; solid; margin-center: 350px" align="center">
 
-Wards 58 & 66th are in the most republican area of Philadelphia, they are represented in the City Council by longtime republican Brian O'Neill as part of the 10th district. Councilor O'Neill is also the minority leader in the city hall. The area is a white working class area, with a majority of Irish-Americans but also other ethnic whites, asians, black and latino growing population. Sen Toomey won the 66th by a larger margin but barely won the 58th. 
+<br>
+Democratic candidate for governor Edmondson won the most votes in the county followed by Hofmeister. Edmondson got 10,690 more votes for a 11.3% county win. The independent candidate in the Superintendent race took away votes from Hofmeister for an 8% 3rd place finish which was higher than the one in the gubernatorial race.
 
+<br>
+
+**The four candidate Head-to-Head**
+
+<br>
+<img src="docs/GovSopi_2018.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+This map compares the four main candidates for the both races. Edmondson and Hofmeister dominated the county and Stitt only won 2 precincts. Edmondson was strong in the greater Oklahoma City while Hofmeister was strong in the north, east and west parts of the county. 
 
 
