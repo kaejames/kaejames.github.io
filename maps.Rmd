@@ -149,7 +149,15 @@ Since Philadelphia is a strong Democratic city, many precincts didn't have votes
 
 <br>
 
-## <span style="color: #660000;"> Oklahoma County, Oklahoma </span>
+## <span style="color: #660000;"> Oklahoma </span>
+
+In 2018, republican Joy Hofmeister won the Superintendent race in a landslide in a re-match with democrat Cox.
+
+<img src="docs/OKSOPI2018.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+<br>
+
+### <span style="color: #660000;"> Oklahoma County, Oklahoma </span>
 
 Here we look at the 2018 Gubernatorial and Superintendent of Public Instruction for the state of Oklahoma. Both republican candidates won their races statewide but only, then republican Joy Hofmeister won this county.
 
