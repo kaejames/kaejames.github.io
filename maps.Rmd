@@ -80,41 +80,6 @@ The primary was held on September 6th, 2022 among other local and statewide elec
 
 <br>
 
-## <span style="color: #C9184A;"> City of Chelsea, MA </span>
-
-### <span style="color: #FF4D6D;"> Gubernatorial Primary </span>
-
-Maura Healey was running unopposed in the Massachusetts democratic gubernatorial primary
-
-<img src="docs/chelsea_gov.png" style="width:100%; solid; margin-center: 350px" align="center">
-
-
-Attorney General and gubernatorial candidate **Maura Healey** under performed in Suffolk County where she got less than 80% of the vote mainly because she did the worst in city of Chelsea. Healy was held under 60% while running unopposed since her opponent dropped out of the race. It's not surprising Healey didn't do well in Chelsea since it's one of the most liberal city in the county and she was deemed not liberal enough. 
-
-<br>
-
-### <span style="color: #FF4D6D;"> District Attorney Primary </span>
-
-For the Suffolk County District Attorney, it was appointed incumbent DA Hayden vs city of Boston council member Ricardo Arroyo.
-
-<img src="docs/suffolk_da.png" style="width:100%; solid; margin-center: 350px" align="center">
-
-Arroyo won the city of Chelsea by 10% as he struggled and lost Boston, Revere and Winthrop. Hayden won the District Attorney primary to fill out the remaining 2yrs vacated by Rachel Rollins as she was appointed to be State Attorney. 
-
-<br>
-
-## <span style="color: #3A86FF;"> Florida House District 109 </span>
-
-### <span style="color: #3A86FF;"> Democratic Primary </span>
-
-The primary was held on August 8th, 2022 between an incumbent and newcomer.
-
-<img src="docs/HD_109.svg" style="width:100%; solid; margin-center: 350px" align="center"> 
-
-Democratic lawyer Ashley Gantt defeated longtime incumbent James Bush III in the primary for the house district 109. Bush faced the primary because he voted to limit abortion to 15 weeks, only democrat in the Florida house to do that. He also voted for laws attacking LBGTQ and workers that were push by DeSantis and the republicans. James had been in the house for years and had the backing of heavyweights in the district. 
-
-<br>
-
 ## <span style="color: #f72585;"> Seoul, South Korea </span>
 
 ### <span style="color: #f72585;"> 2022 Mayoral Election </span>
@@ -151,7 +116,18 @@ Since Philadelphia is a strong Democratic city, many precincts didn't have votes
 
 ## <span style="color: #660000;"> Oklahoma </span>
 
-In 2018, republican Joy Hofmeister won the Superintendent race in a landslide in a re-match with democrat Cox.
+Analysis of statewide races in the state of Oklahoma.
+
+### <span style="color: #660000;"> Medicaid Expansion </span>
+The initiative to expand medicaid in the state of Oklahoma took place on June 30th, 2022 together with state and local election. This was a low turnout election and the YES campaign won by 1% or 6,553 votes out of 674,591 cast. The YES campaign did the best in Oklahoma County followed by Tulsa County. The NO campaign did well from central west to northwest counties. The YES campaign won 7 counties out of 77 and won many precincts by less than 100 votes.
+
+<img src="docs/OKMED22.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+<br>
+
+### <span style="color: #660000;"> Superintendent of Public </span>
+
+In 2018, republican Joy Hofmeister won the Superintendent race in a landslide in a re-match with democrat Cox.Hofmesiter did well in the western part of the state while Cox kept her margins down in the east. 
 
 <img src="docs/OKSOPI2018.png" style="width:100%; solid; margin-center: 350px" align="center">
 
@@ -166,13 +142,5 @@ Here we look at the 2018 Gubernatorial and Superintendent of Public Instruction 
 <br>
 Democratic candidate for governor Edmondson won the most votes in the county followed by Hofmeister. Edmondson got 10,690 more votes for a 11.3% county win. The independent candidate in the Superintendent race took away votes from Hofmeister for an 8% 3rd place finish which was higher than the one in the gubernatorial race.
 
-<br>
-
-**The four candidate Head-to-Head**
-
-<br>
-<img src="docs/GovSopi_2018.png" style="width:100%; solid; margin-center: 350px" align="center">
-
-This map compares the four main candidates for the both races. Edmondson and Hofmeister dominated the county and Stitt only won 2 precincts. Edmondson was strong in the greater Oklahoma City while Hofmeister was strong in the north, east and west parts of the county. 
 
 
