@@ -119,7 +119,7 @@ Since Philadelphia is a strong Democratic city, many precincts didn't have votes
 Analysis of statewide races in the state of Oklahoma.
 
 ### <span style="color: #660000;"> Medicaid Expansion </span>
-The initiative to expand medicaid in the state of Oklahoma took place on June 30th, 2022 together with state and local election. This was a low turnout election and the YES campaign won by 1% or 6,553 votes out of 674,591 cast. The YES campaign did the best in Oklahoma County followed by Tulsa County. The NO campaign did well from central west to northwest counties. The YES campaign won 7 counties out of 77 and won many precincts by less than 100 votes.
+The initiative to expand medicaid in the state of Oklahoma took place on June 30th, 2022 together with state and local election. This was a low turnout election and the YES campaign won by 1% or 6,553 votes out of 674,591 cast. The YES campaign did the best in Oklahoma County followed by Tulsa County. The NO campaign did well from central west to northwest counties. The YES campaign won 7 counties out of 77 and won many precincts by less than 100 votes. The YES won the mail/absentee vote by 47.2% which was 19% of the total vote cast and helped overcome the election day massive vote which it lost by 8.2%, election day was 81% of the total vote cast. 
 
 <img src="docs/OKMED22.png" style="width:100%; solid; margin-center: 350px" align="center">
 
@@ -127,7 +127,7 @@ The initiative to expand medicaid in the state of Oklahoma took place on June 30
 
 ### <span style="color: #660000;"> Superintendent of Public </span>
 
-In 2018, republican Joy Hofmeister won the Superintendent race in a landslide in a re-match with democrat Cox.Hofmesiter did well in the western part of the state while Cox kept her margins down in the east. 
+In 2018, republican Joy Hofmeister won the Superintendent race in a landslide in a re-match with democrat Cox.Hofmesiter won 76 counties except Cherokee County which democrat Cox won. 
 
 <img src="docs/OKSOPI2018.png" style="width:100%; solid; margin-center: 350px" align="center">
 
