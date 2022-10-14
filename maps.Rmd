@@ -82,13 +82,15 @@ The primary was held on September 6th, 2022 among other local and statewide elec
 
 ## <span style="color: #f72585;">South Korea </span>
 
+Analysis of local and country wide elections.
+
 ### <span style="color: #f72585;"> 2022 Presidential Election </span>
 
 South Korea held it's presidential election on March 9th 2022. The contest was between conservative candidate and former prosecutor general Yoon suk-yeol and liberal Gyeonggi former governor Lee Jae-myung. Yoon led the polls most of the campaign and more so in late 2021 and through the new year. The liberal incumbent president Moon was very unpopular and it was going to be a tough task for Lee to overcome. The election ended up being the closest since 2002 and Yoon won by 0.8%.
 
 <img src="docs/korea_22_region.png" style="width:100%; solid; margin-center: 350px" align="center">
 
-Yoon ran-up the margins in the conservative base of eastern and south east part of the country and Lee also ran-up his margins in south western. The election came down to the Seoul and greater Seoul area in Gyeonggi home to Lee. Lee under performed his 2018 gubernatorial election in which he had won by 21%. Lee won Gyeonggi by 5.6% which made it hard since he lost Seoul to Yoon who racked up huge margins in the wealth areas south of river Han.
+Yoon ran-up the margins in the conservative base of eastern and south east part of the country and Lee also ran-up his margins in south western. The election came down to the Seoul and greater Seoul area in Gyeonggi home to Lee. Lee under performed his 2018 gubernatorial election in which he had won by 21%. Lee won Gyeonggi by 5.6% which made it hard since he lost Seoul to Yoon who racked up huge margins in the wealthy areas south of river Han.
 
 <br>
 
@@ -116,7 +118,7 @@ Yoon Suk-yeol won the presidential election because he dominated the largest  me
 <img src="docs/daejon_sejeon.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 <br>
-**Lee was did well in the north west metro of Incheon in the area close to Seoul**.
+**Lee also did well in the north west metro of Incheon in the area close to Seoul**.
 
 <img src="docs/incheon.png" style="width:100%; solid; margin-center: 350px" align="center">
 
@@ -128,7 +130,7 @@ Seoul City mayoral election was held on June 1st, 2022.
 
 <img src="docs/seoul2022_3.png" style="width:100%; solid; margin-center: 350px" align="center"> 
 
-Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5%. The turnout for the mayoral electon was just 53% compared to the 70%> for presidential election. 
+Conservative incumbent Oh Se-hoon of People Power won the election in a landslide for a full term against Song Young-gil of Democratic party of Korea. Oh won all 25 districts and winning by large margins in the wealthy areas south of the river like Gangnam district that is well known worldwide. This election followed the presidential election in March where the conservative candidate won Seoul by less than 5%. The turnout for the mayoral election was just 53% compared to the 70%> for presidential election. 
 
 <br>
 

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Voting Intention</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">KAEJAMES</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">BIDEN</a>
+</li>
+<li>
+  <a href="Ballot.html">2022 MIDTERMS</a>
+</li>
+<li>
+  <a href="maps.html">ELECTION MAPS</a>
+</li>
+<li>
+  <a href="uk.html">U.K POLLS</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/kaejames/kaejames.github.io">
+    <span class="fa fa-github"></span>
+     
+    Github
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/james_polls">
+    <span class="fa fa-twitter"></span>
+     
+    Twitter
+  </a>
+</li>
+<li>
+  <a href="mailto:boozmike@yahoo.com">
+    <span class="fa fa-envelope-o"></span>
+     
+    Contact
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Voting Intention</h1>
+<h4 class="date">10/ 14/ 22</h4>
+
+</div>
+
+
+<p><br> Great Britain[<strong><em>England,Scotland and
+Wales</em></strong>] voting intention polling for the next general
+election which will likely be held in <strong><em>winter of 2024 or
+January 2025</em></strong> if there is not a snap election which is very
+doubtful.</p>
+<p><br> <strong>Major Political Events of 2022</strong></p>
+<p><strong><strong><em>Boris Johnson stepped down as Prime Minister on
+September 5th 2022 after MP Lizz Truss won the conservative leadership
+poll and was sworn as the new Prime Minister on the
+6th</em></strong></strong></p>
+<p><strong><strong><em>On September 23rd 2022, PM Liz Truss and
+Chancellor of the Exchequer Kwasi Kwarteng announced economic policies
+that were reffered to as a “mini budget”. The stock market didn’t like
+the new policies and the sterling pound dropped to it’s lowest against
+the dollar since the 1980’s. This caused the Conservative party to drop
+in polls, to it’s lowest since the late 90’s ahead on 1997 Labor
+landslide victory</em></strong></strong>.</p>
+<hr />
+<div id="htmlwidget-e2e90c2ef7f440b866b2" style="width:100%;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e2e90c2ef7f440b866b2">{"x":{"data":[{"x":[1643587200,1646006400,1648598400,1651104000,1653782400,1656547200,1658966400,1661904000,1664496000,1665619200],"y":[32,33,35,34,33,33,32,31,29,24],"text":["Date: 2022-01-31<br />Results: 32","Date: 2022-02-28<br />Results: 33","Date: 2022-03-30<br />Results: 35","Date: 2022-04-28<br />Results: 34","Date: 2022-05-29<br />Results: 33","Date: 2022-06-30<br />Results: 33","Date: 2022-07-28<br />Results: 32","Date: 2022-08-31<br />Results: 31","Date: 2022-09-30<br />Results: 29","Date: 2022-10-13<br />Results: 24"],"type":"scatter","mode":"lines","line":{"width":7.55905511811024,"color":"rgba(0,191,255,1)","dash":"solid"},"hoveron":"points","name":"Cons","legendgroup":"Cons","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1643587200,1646006400,1648598400,1651104000,1653782400,1656547200,1658966400,1661904000,1664496000,1665619200],"y":[6,5,6,6,6,6,6,6,6,5],"text":["Date: 2022-01-31<br />Results:  6","Date: 2022-02-28<br />Results:  5","Date: 2022-03-30<br />Results:  6","Date: 2022-04-28<br />Results:  6","Date: 2022-05-29<br />Results:  6","Date: 2022-06-30<br />Results:  6","Date: 2022-07-28<br />Results:  6","Date: 2022-08-31<br />Results:  6","Date: 2022-09-30<br />Results:  6","Date: 2022-10-13<br />Results:  5"],"type":"scatter","mode":"lines","line":{"width":7.55905511811024,"color":"rgba(0,255,0,1)","dash":"solid"},"hoveron":"points","name":"Greens","legendgroup":"Greens","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1643587200,1646006400,1648598400,1651104000,1653782400,1656547200,1658966400,1661904000,1664496000,1665619200],"y":[40,39,38,39,39,39,40,41,44,52],"text":["Date: 2022-01-31<br />Results: 40","Date: 2022-02-28<br />Results: 39","Date: 2022-03-30<br />Results: 38","Date: 2022-04-28<br />Results: 39","Date: 2022-05-29<br />Results: 39","Date: 2022-06-30<br />Results: 39","Date: 2022-07-28<br />Results: 40","Date: 2022-08-31<br />Results: 41","Date: 2022-09-30<br />Results: 44","Date: 2022-10-13<br />Results: 52"],"type":"scatter","mode":"lines","line":{"width":7.55905511811024,"color":"rgba(238,99,99,1)","dash":"solid"},"hoveron":"points","name":"Lab","legendgroup":"Lab","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1643587200,1646006400,1648598400,1651104000,1653782400,1656547200,1658966400,1661904000,1664496000,1665619200],"y":[11,11,10,10,12,13,12,12,10,10],"text":["Date: 2022-01-31<br />Results: 11","Date: 2022-02-28<br />Results: 11","Date: 2022-03-30<br />Results: 10","Date: 2022-04-28<br />Results: 10","Date: 2022-05-29<br />Results: 12","Date: 2022-06-30<br />Results: 13","Date: 2022-07-28<br />Results: 12","Date: 2022-08-31<br />Results: 12","Date: 2022-09-30<br />Results: 10","Date: 2022-10-13<br />Results: 10"],"type":"scatter","mode":"lines","line":{"width":7.55905511811024,"color":"rgba(255,215,0,1)","dash":"solid"},"hoveron":"points","name":"Lib","legendgroup":"Lib","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1643587200,1646006400,1648598400,1651104000,1653782400,1656547200,1658966400,1661904000,1664496000,1665619200],"y":[5,4,5,4,4,4,4,4,5,4],"text":["Date: 2022-01-31<br />Results:  5","Date: 2022-02-28<br />Results:  4","Date: 2022-03-30<br />Results:  5","Date: 2022-04-28<br />Results:  4","Date: 2022-05-29<br />Results:  4","Date: 2022-06-30<br />Results:  4","Date: 2022-07-28<br />Results:  4","Date: 2022-08-31<br />Results:  4","Date: 2022-09-30<br />Results:  5","Date: 2022-10-13<br />Results:  4"],"type":"scatter","mode":"lines","line":{"width":7.55905511811024,"color":"rgba(255,255,0,1)","dash":"solid"},"hoveron":"points","name":"SNP","legendgroup":"SNP","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":48.810294728103,"r":7.30593607305936,"b":25.5707762557078,"l":22.648401826484},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"<b> Great Britain Voting Intention <\/b>","font":{"color":"rgba(0,0,0,1)","family":"Ubuntu","size":22.5819842258198},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1642485600,1666720800],"tickmode":"array","ticktext":["Apr","Jul","Oct"],"tickvals":[1648771200,1656633600,1664582400],"categoryorder":"array","categoryarray":["Apr","Jul","Oct"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"<b>  <\/b>","font":{"color":"rgba(0,0,0,1)","family":"Ubuntu","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-2.75,57.75],"tickmode":"array","ticktext":["0","20","40"],"tickvals":[0,20,40],"categoryorder":"array","categoryarray":["0","20","40"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"title":{"text":"Party","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"13f85e7e7049":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"13f85e7e7049","visdat":{"13f85e7e7049":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p> 
+
+ <font size="2"> <center> This website was created using <a href="https://rmarkdown.rstudio.com/">R Markdown.</a> </center> </font>
+</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

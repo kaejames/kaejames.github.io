@@ -10,6 +10,8 @@ navbar:
     href:  Ballot.html 
   - text: "ELECTION MAPS"
     href:  maps.html
+  - text: "U.K POLLS"
+    href:  uk.html
   right:
   - text: "Github"
     icon: fa-github

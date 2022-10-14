@@ -31,6 +31,7 @@ library(scales)
 library(lubridate) 
 library(dplyr)
 ```
+
 ```{r, echo=FALSE}
 genericbal<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "daily") 
 knitr::opts_chunk$set(error = TRUE)

@@ -1,6 +1,5 @@
 ---
-title: "James is my name"
-fontsize: 30pts
+title: "U.K POLLING"
+output: html_document
+date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 ---
-
-**Visualizations and analysis through charts and maps!** 

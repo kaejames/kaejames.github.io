@@ -1,0 +1,50 @@
+---
+title: "Voting Intention"
+output: html_document
+date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
+---
+<br>
+Great Britain[***England,Scotland and Wales***] voting intention polling for the next general election which will likely be held in  ***winter of 2024 or January 2025*** if there is not a snap election which is very doubtful. 
+
+<br>
+**Major Political Events of 2022**
+
+__***Boris Johnson stepped down as Prime Minister on September 5th 2022 after MP Lizz Truss won the conservative leadership poll and was sworn as the new Prime Minister on the 6th***__ 
+
+__***On September 23rd 2022, PM Liz Truss and Chancellor of the Exchequer Kwasi Kwarteng announced economic policies that were reffered to as a "mini budget". The stock market didn't like the new policies and the sterling pound dropped to it's lowest against the dollar since the 1980's. This caused the Conservative party to drop in polls, to it's lowest since the late 90's ahead on 1997 Labor landslide victory***__. 
+
+----------
+
+```{r setup, include=FALSE}
+library(dygraphs)
+library(flexdashboard)  
+library(readxl)
+library(ggplot2)
+library(plotly)
+library(knitr)
+library(plyr)
+library(scales) 
+library(lubridate) 
+library(dplyr)
+```
+
+```{r, echo=FALSE}
+ukpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx"), sheet = "chart") 
+knitr::opts_chunk$set(error = TRUE)
+```
+
+```{r,out.width='100%', echo=FALSE}
+p<-ggplot(ukpolls)+
+  geom_line(aes(x=Date, y=Results,colour=Party, group=Party), lwd=2) +
+  labs(x="", y="", title = "Great Britain Voting Intention",
+       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
+  scale_color_manual(values =c("deepskyblue","green", "indianred2", "gold","yellow")) +
+  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
+        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
+        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
+        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
+  scale_y_continuous(limits = c(0,55))
+  
+ggplotly(p, tooltip =c("Results", "Date")) 
+```
