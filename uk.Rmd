@@ -4,14 +4,17 @@ output: html_document
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 ---
 <br>
-Great Britain[***England,Scotland and Wales***] voting intention polling for the next general election which will likely be held in  ***winter of 2024 or January 2025*** if there is not a snap election which is very doubtful. 
+Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025*** if there is not a snap election which is very doubtful. The polling aggregate starts with the 2019 General Elections results. Between the 2019 general election results to the end of 2021, the Conservative party lost 4.4% for a 40.3% polling and the Labour party gained 2.3% for 35.2% polling by the end of the year. Since Lizz Truss became the PM in early September, the Labour party is polling close to the Conservatives back in March of 2020, three months after their landslide win but the Conservative are polling lower than Labour did back then which was at 30%. 
 
 <br>
-**Major Political Events of 2022**
+
+### <span style="color: #f72585;"> Major Political Events </span>
 
 __***Boris Johnson stepped down as Prime Minister on September 5th 2022 after MP Lizz Truss won the conservative leadership poll and was sworn as the new Prime Minister on the 6th***__ 
 
-__***On September 23rd 2022, PM Liz Truss and Chancellor of the Exchequer Kwasi Kwarteng announced economic policies that were reffered to as a "mini budget". The stock market didn't like the new policies and the sterling pound dropped to it's lowest against the dollar since the 1980's. This caused the Conservative party to drop in polls, to it's lowest since the late 90's ahead on 1997 Labor landslide victory***__. 
+__***On September 23rd 2022, PM Liz Truss and Chancellor of the Exchequer Kwasi Kwarteng announced economic policies that were refereed to as a "mini budget". The stock market didn't like the new policies and the sterling pound dropped to it's lowest against the dollar since the 1980's. This caused the Conservative party to drop in polls, to it's lowest since the late 90's ahead on 1997 Labor landslide victory***__. 
+
+__***On October 14th 2022, PM Truss fired/sack Chancellor of the Exchequer Kwasi Kwarteng in the morning after returning from Washington D.C where he held talks with IMF. Jeremy Hunt was appointed Chancellor of the Exchequer***__
 
 ----------
 
@@ -33,10 +36,13 @@ ukpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx")
 knitr::opts_chunk$set(error = TRUE)
 ```
 
+
+
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(ukpolls)+
-  geom_line(aes(x=Date, y=Results,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Great Britain Voting Intention",
+  geom_line(aes(x=Date, y=Aggregate,colour=Party, group=Party), lwd=2) +
+  
+  labs(x="", y="", title = "Opinion Polls Aggregate",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","green", "indianred2", "gold","yellow")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -46,5 +52,6 @@ p<-ggplot(ukpolls)+
         plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
   scale_y_continuous(limits = c(0,55))
   
-ggplotly(p, tooltip =c("Results", "Date")) 
+ggplotly(p, tooltip =c("Aggregate", "Date")) 
 ```
+
