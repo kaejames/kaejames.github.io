@@ -6,15 +6,11 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 
 <br>
 
-Polling average of the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal,Selzer&Co and Monmouth University Poll__. These are high quality pollsters with a great record when it comes to polls conducted the past two years especially Echelon, Fox and Monmouth for their Virginia 2021 Gubernatorial election. 
+Polling average of generic ballot and women voters for the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal,Selzer&Co and Monmouth University Poll__. Recent and fresh polls are average daily whenever posible. There is daily and monthly tracking to see how it compares for both generic ballot and women voters.  
 
 <br>
 
-The Republicans led the polling average from late January to early July because they averaged over 40% support from women, gasoline prices increase and high inflation. The supreme court ruling on abortion at the end of June had a negative effect on republicans women support as they fell below 40%.
 
-<br> 
-
-Democrats took their first lead in July 18th by **0.5%** and continue to lead. In August 23rd,2022, Democrats won the special election for the New York 19th district that Biden had won 1.6% in 2020 vs Trump and a district repulicans were meant to win to flip the house. This seat was rated Toss Up to Lean R and polling indicated a big Republican win. The win showed the environment was changing in Democrats favor with democratic voters energized since the Dobbs ruling and polls have also followed.   
 
 ---------------------------------------------------------
 
