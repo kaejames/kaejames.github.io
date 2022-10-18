@@ -110,7 +110,7 @@ Yoon Suk-yeol won the presidential election because he dominated the largest  me
 <br>
 **Lee was able to compete because he dominated the liberal base of Gwangju in the south west**.
 
-<img src="docs/Gwangju.png" style="width:100%; solid; margin-center: 350px" align="center">
+<img src="docs/Gwanju.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 <br>
 **He also did well in the central metro areas of Sejeon**

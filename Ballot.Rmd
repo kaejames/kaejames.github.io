@@ -36,6 +36,10 @@ knitr::opts_chunk$set(error = TRUE)
 monthly<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "month") 
 knitr::opts_chunk$set(error = TRUE)
 ```
+```{r, echo=FALSE}
+foxnews<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/foxnews.xlsx"), sheet = "Avg") 
+knitr::opts_chunk$set(error = TRUE)
+```
 
  
 ```{r,out.width='100%', echo=FALSE}
@@ -110,3 +114,19 @@ p<-ggplot(monthly)+
   
 ggplotly(p, tooltip =c("Women", "Date"))  
 ``` 
+
+```{r,out.width='100%', echo=FALSE}
+p<-ggplot(foxnews)+
+  geom_line(aes(x=Date, y=Results,colour=Party, group=Party), lwd=2) +
+  labs(x="", y="", title = "Fox News Polls & Results",
+       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
+  scale_color_manual(values =c("deepskyblue","indianred2")) +
+  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
+        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
+        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
+        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
+  scale_y_continuous(limits = c(35,55))
+  
+ggplotly(p, tooltip =c("Results", "Date")) 
+```
