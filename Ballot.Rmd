@@ -6,7 +6,7 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 
 <br>
 
-Polling average of generic ballot and women voters for the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal,Selzer&Co and Monmouth University Poll__. Recent and fresh polls are average daily whenever posible. There is daily and monthly tracking to see how it compares for both generic ballot and women voters.  
+Polling average of generic ballot and women voters for the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal,Selzer&Co and Monmouth University Poll__. Fresh new polls are avaeraged when possible.
 
 <br>
 
@@ -40,53 +40,13 @@ knitr::opts_chunk$set(error = TRUE)
 foxnews<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/foxnews.xlsx"), sheet = "Avg") 
 knitr::opts_chunk$set(error = TRUE)
 ```
-
- 
-```{r,out.width='100%', echo=FALSE}
-p<-ggplot(genericbal)+
-  geom_line(aes(x=Date, y=Ballot,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Who is leading? - Daily Tracking",
-       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
-  scale_color_manual(values =c("deepskyblue","indianred2")) +
-  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
-        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
-        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
-        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
-        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
-  scale_y_continuous(limits = c(35,55))
-  
-ggplotly(p, tooltip =c("Ballot", "Date"))  
-``` 
-
--------------------------------------------------------
-<left>Women voters are important and more important to Democrats winning, they will need a double digit edge against the Republicans in November to win.</left>
-
-<br>
-
-```{r,out.width='100%', echo=FALSE}
-W<-ggplot(genericbal)+
-  geom_line(aes(x=Date, y=Women,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Women support for Congress? - Daily Tracking",
-       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
-  scale_color_manual(values =c("deepskyblue","indianred2")) +
-  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
-        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
-        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
-        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
-        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13))+
-   scale_y_continuous(limits = c(35,55))
-ggplotly(W, tooltip = c("Women", "Date"))  
-``` 
-<br>
-
-<left>Monthly Polling Aggregate that shows a different picture for both party and women voters.It shows republicans peaked at their highest in May until the end of June.</left> 
  
 <br> 
  
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(monthly)+
   geom_line(aes(x=Date, y=Congress,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Who is leading? - Monthly Tracking",
+  labs(x="", y="", title = "Who is leading?",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -94,7 +54,7 @@ p<-ggplot(monthly)+
         legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
         axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
         plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
-  scale_y_continuous(limits = c(35,55))
+  scale_y_continuous(limits = c(40,50))
   
 ggplotly(p, tooltip =c("Congress", "Date"))  
 ``` 
@@ -102,7 +62,7 @@ ggplotly(p, tooltip =c("Congress", "Date"))
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(monthly)+
   geom_line(aes(x=Date, y=Women,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Women support for Congress? - Monthly Tracking",
+  labs(x="", y="", title = "Women support for Congress?",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -115,18 +75,3 @@ p<-ggplot(monthly)+
 ggplotly(p, tooltip =c("Women", "Date"))  
 ``` 
 
-```{r,out.width='100%', echo=FALSE}
-p<-ggplot(foxnews)+
-  geom_line(aes(x=Date, y=Results,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Fox News Polls & Results",
-       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
-  scale_color_manual(values =c("deepskyblue","indianred2")) +
-  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
-        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
-        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
-        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
-        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
-  scale_y_continuous(limits = c(35,55))
-  
-ggplotly(p, tooltip =c("Results", "Date")) 
-```
