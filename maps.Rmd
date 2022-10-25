@@ -46,7 +46,7 @@ Australia held it’s federal election on May 21, 2022. The conservative coaliti
 
 Analysis of local and statewide elections.
 
-### <span style="color: #16db65;"> 2012 Question 2 </span>
+### <span style="color: #16db65;"> 2012 Question #2 </span>
 
 Voters in 2012 had the choice of voting Yes or No on question 2 for physicians to prescribe medication to terminally ill patients to end their lives.
 
@@ -179,6 +179,23 @@ Here we look at the 2018 Gubernatorial and Superintendent of Public Instruction 
 
 <br>
 Democratic candidate for governor Edmondson won the most votes in the county followed by Hofmeister. Edmondson got 10,690 more votes for a 11.3% county win. The independent candidate in the Superintendent race took away votes from Hofmeister for an 8% 3rd place finish which was higher than the one in the gubernatorial race.
+
+<br>
+
+## <span style="color: #009900;"> Oregon </span>
+
+Analysis of local and statewide elections
+
+### <span style="color: #009900;"> 1994 Measure No.16 </span>
+
+Ballot measure no.16 was an initiative to establish ***Death With Dignity Act*** for the state of Oregon if it passed.
+
+<img src="docs/Oregon_M16.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+The YES vote won by 2.6%, it did the best in the biggest counties in the eastern part of the state while the NO vote did it's best in the western conservative part of the state. Oregon became the first state to establish such an Act and the only jurisdiction in the world. The act faced hurdles before going into effect, opponents tried to repeal it in a special election in 1997 but it lost in a landslide. The Bush Administration challenged the Act in the supreme court in 2005 after winning a second term but lost 6-3 in favor of Oregon.
+
+
+
 
 
 
