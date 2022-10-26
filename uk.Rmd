@@ -20,6 +20,8 @@ __***On October 19th 2022, right winger Home Secretary Suella Braveman was fired
 
 __***On October 20th 2022, Prime Minister Truss announced her resignation as the leader Conservative party leader and the premiership. She became the shortest serving PM in the United Kingdom history at only 44 days***__
 
+__***On October 24th 2022, MP Rishi Sunak won the snap conservative leadership election amaong the MP's which automatically made him the Prime Minister to replace the outgoing Lizz Truss. Sunak became the first ethnic leader of the United Kingdom history***__
+
 ----------
 
 ```{r setup, include=FALSE}
@@ -33,6 +35,7 @@ library(plyr)
 library(scales) 
 library(lubridate) 
 library(dplyr)
+library(DT)
 ```
 
 ```{r, echo=FALSE}
@@ -40,7 +43,24 @@ ukpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx")
 knitr::opts_chunk$set(error = TRUE)
 ```
 
+```{r, echo=FALSE}
+tablepol<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx"), sheet = "table") 
+knitr::opts_chunk$set(error = TRUE)
+```
+<br>
 
+### The five main political parties vote share from the 2019 general elections and the party support share aggregated begining 2020.
+
+<br>
+
+
+```{r,out.width='100%', echo=FALSE}
+datatable(tablepol,extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
+  )
+) 
+```
 
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(ukpolls)+
