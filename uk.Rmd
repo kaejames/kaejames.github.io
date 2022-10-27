@@ -1,10 +1,10 @@
 ---
-title: "Voting Intention"
+title: "Opinion Polls"
 output: html_document
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 ---
 <br>
-Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025*** if there is not a snap election which is very doubtful. The polling aggregate starts with the 2019 General Elections results. Between the 2019 general election results to the end of 2021, the Conservative party lost 4.4% for a 40.3% polling and the Labour party gained 2.3% for 35.2% polling by the end of the year. Since Lizz Truss became the PM in early September, the Labour party is polling close to the Conservatives back in March of 2020, three months after their landslide win but the Conservative are polling lower than Labour did back then which was at 30%. 
+Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025***.
 
 <br>
 
@@ -47,26 +47,14 @@ knitr::opts_chunk$set(error = TRUE)
 tablepol<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx"), sheet = "table") 
 knitr::opts_chunk$set(error = TRUE)
 ```
-<br>
-
-### The five main political parties vote share from the 2019 general elections and the party support share aggregated begining 2020.
-
-<br>
 
 
-```{r,out.width='100%', echo=FALSE}
-datatable(tablepol,extensions = 'Buttons', options = list(
-    dom = 'Bfrtip',
-    buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
-  )
-) 
-```
 
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(ukpolls)+
   geom_line(aes(x=Date, y=Aggregate,colour=Party, group=Party), lwd=2) +
   
-  labs(x="", y="", title = "Opinion Polls Aggregate",
+  labs(x="", y="", title = "Opinion Polls",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","green", "indianred2", "gold","yellow")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -79,3 +67,26 @@ p<-ggplot(ukpolls)+
 ggplotly(p, tooltip =c("Aggregate", "Date")) 
 ```
 
+
+<br>
+
+<center style="color:#000000;"> 2019 General Election Results and Predictions Based on Aggregated Polls </center> 
+
+<br>
+
+
+```{r,out.width='100%', echo=FALSE}
+datatable(tablepol,extensions = 'Buttons',rownames = FALSE, options = list(
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
+  )
+) %>%
+  formatStyle(
+    'Party',
+    fontWeight = 'bold',
+    backgroundColor = styleEqual(
+      unique(tablepol$Party), c('deepskyblue','red', 'gold','lightgreen','yellow')
+    )
+  ) 
+```
+The Conservative party maintained it's majority through 2021 and could have easily kept the majority in an election. The Labour party rebounded from it's disastrous 2019 while Liberal Democrats were squeezed by the two main parties. SNP stayed strong in Scotland and it increased it's share of seats. Labour overtook the ruling Conservatives in January 2022, were ahead by 6%(39%-33%) and predicted to gain over 100 seats just short of majority(303). **When Lizz Truss became the Prime Minister, Labour increased their lead to 10% which would give them a majority with over 330 seats and the Conservatives losing about 140 seats**.   
