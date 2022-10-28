@@ -36,10 +36,7 @@ knitr::opts_chunk$set(error = TRUE)
 monthly<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "month") 
 knitr::opts_chunk$set(error = TRUE)
 ```
-```{r, echo=FALSE}
-foxnews<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/foxnews.xlsx"), sheet = "Avg") 
-knitr::opts_chunk$set(error = TRUE)
-```
+
  
 <br> 
  
