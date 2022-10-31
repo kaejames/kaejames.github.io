@@ -26,14 +26,21 @@ library(plyr)
 library(scales) 
 library(lubridate) 
 library(dplyr)
+library(DT) 
 ```
 
 ```{r, echo=FALSE}
 genericbal<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "daily") 
 knitr::opts_chunk$set(error = TRUE)
 ```
+
 ```{r, echo=FALSE}
 monthly<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "month") 
+knitr::opts_chunk$set(error = TRUE)
+```
+
+```{r, echo=FALSE}
+tablepolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "table") 
 knitr::opts_chunk$set(error = TRUE)
 ```
 
@@ -71,4 +78,6 @@ p<-ggplot(monthly)+
   
 ggplotly(p, tooltip =c("Women", "Date"))  
 ``` 
+
+ 
 
