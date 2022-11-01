@@ -8,19 +8,19 @@ Great Britain[***England,Scotland and Wales***] opinion polling aggregation from
 
 <br>
 
-### <span style="color: #f72585;"> Major Political Events in 2022</span>
+> ### <span style="color: #f72585;"> Major Political Events in 2022</span>
 
-__***Boris Johnson stepped down as Prime Minister on September 5th 2022 after MP Lizz Truss won the conservative leadership poll and was sworn as the new Prime Minister on the 6th***__ 
+***Boris Johnson stepped down as Prime Minister on September 5th 2022 after MP Lizz Truss won the conservative leadership poll and was sworn as the new Prime Minister on the 6th***
 
-__***On September 23rd 2022, PM Liz Truss and Chancellor of the Exchequer Kwasi Kwarteng announced economic policies that were refereed to as a "mini budget". The stock market didn't like the new policies and the sterling pound dropped to it's lowest against the dollar since the 1980's. This caused the Conservative party to drop in polls, to it's lowest since the late 90's ahead on 1997 Labor landslide victory***__. 
+***On September 23rd 2022, PM Liz Truss and Chancellor of the Exchequer Kwasi Kwarteng announced economic policies that were refereed to as a "mini budget". The stock market didn't like the new policies and the sterling pound dropped to it's lowest against the dollar since the 1980's. This caused the Conservative party to drop in polls, to it's lowest since the late 90's ahead on 1997 Labor landslide victory***. 
 
-__***On October 14th 2022, PM Truss fired/sacked Chancellor of the Exchequer Kwasi Kwarteng in the morning after returning from Washington D.C where he held talks with IMF. Jeremy Hunt was appointed Chancellor of the Exchequer***__
+***On October 14th 2022, PM Truss fired/sacked Chancellor of the Exchequer Kwasi Kwarteng in the morning after returning from Washington D.C where he held talks with IMF. Jeremy Hunt was appointed Chancellor of the Exchequer***
 
-__***On October 19th 2022, right winger Home Secretary Suella Braveman was fired/sacked by PM Truss for email breach and replaced by moderate MP Grant Shapps in a sign the Truss government was moving away from the right and to the middle***__
+***On October 19th 2022, right winger Home Secretary Suella Braveman was fired/sacked by PM Truss for email breach and replaced by moderate MP Grant Shapps in a sign the Truss government was moving away from the right and to the middle***
 
-__***On October 20th 2022, Prime Minister Truss announced her resignation as the leader Conservative party leader and the premiership. She became the shortest serving PM in the United Kingdom history at only 44 days***__
+***On October 20th 2022, Prime Minister Truss announced her resignation as the leader Conservative party leader and the premiership. She became the shortest serving PM in the United Kingdom history at only 44 days***
 
-__***On October 24th 2022, MP Rishi Sunak won the snap conservative leadership election amaong the MP's which automatically made him the Prime Minister to replace the outgoing Lizz Truss. Sunak became the first ethnic leader of the United Kingdom history***__
+***On October 24th 2022, MP Rishi Sunak won the snap conservative leadership election amaong the MP's which automatically made him the Prime Minister to replace the outgoing Lizz Truss. Sunak became the first ethnic leader of the United Kingdom history***
 
 ----------
 
@@ -70,7 +70,7 @@ ggplotly(p, tooltip =c("Aggregate", "Date"))
 
 <br>
 
-<center style="color:#000000;"> 2019 General Election Results and Predictions Based on Aggregated Polls </center> 
+<center style="color:#000000;"> **2019 General Election Results and Predictions Based on Aggregated Polls** </center> 
 
 <br>
 

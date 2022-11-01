@@ -6,7 +6,7 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 
 <br>
 
-Polling average of generic ballot and women voters for the 2022 midterms elections using __Echelon Insights, Fox News Poll, NYT/Siena, Cygnal,Selzer&Co and Monmouth University Poll__. Fresh new polls are avaeraged when possible.
+Polling average of generic ballot and women voters for the 2022 midterms elections, polls used are at the bottom of the page.
 
 <br>
 
@@ -40,7 +40,7 @@ knitr::opts_chunk$set(error = TRUE)
 ```
 
 ```{r, echo=FALSE}
-tablepolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "table") 
+tbpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), sheet = "table") 
 knitr::opts_chunk$set(error = TRUE)
 ```
 
@@ -79,5 +79,19 @@ p<-ggplot(monthly)+
 ggplotly(p, tooltip =c("Women", "Date"))  
 ``` 
 
+<br>
+
+## **All the Polls Used for the aggregation**.
+
+<br>
+
+
+```{r,out.width='100%', echo=FALSE}
+datatable(tbpolls,extensions = 'Buttons',rownames = FALSE, options = list(
+    dom = 'Bfrtip',
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),pageLength = 5
+  )
+) 
+```
  
 
