@@ -48,8 +48,8 @@ knitr::opts_chunk$set(error = TRUE)
 <br> 
  
 ```{r,out.width='100%', echo=FALSE}
-p<-ggplot(monthly)+
-  geom_line(aes(x=Date, y=Congress,colour=Party, group=Party), lwd=2) +
+p<-ggplot(genericbal)+
+  geom_line(aes(x=Date, y=Ballot,colour=Party, group=Party), lwd=2) +
   labs(x="", y="", title = "Who is leading?",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
@@ -58,15 +58,15 @@ p<-ggplot(monthly)+
         legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
         axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
         plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
-  scale_y_continuous(limits = c(40,50))
+  scale_y_continuous(limits = c(35,55))
   
-ggplotly(p, tooltip =c("Congress", "Date"))  
+ggplotly(p, tooltip =c("Ballot", "Date"))  
 ``` 
 
 ```{r,out.width='100%', echo=FALSE}
-p<-ggplot(monthly)+
+p<-ggplot(genericbal)+
   geom_line(aes(x=Date, y=Women,colour=Party, group=Party), lwd=2) +
-  labs(x="", y="", title = "Women support for Congress?",
+  labs(x="", y="", title = "Women - support for Congress",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","indianred2")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -81,7 +81,7 @@ ggplotly(p, tooltip =c("Women", "Date"))
 
 <br>
 
-## **All the Polls Used for the aggregation**
+## **All the tolls used for the average**
 
 <br>
 
