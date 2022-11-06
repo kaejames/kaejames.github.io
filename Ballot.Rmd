@@ -6,7 +6,7 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 
 <br>
 
-Polling average of generic ballot and women voters for the 2022 midterms elections, polls used are at the bottom of the page.
+**Polling average of generic ballot and women voters for the 2022 midterms elections, polls used are at the bottom of the page**.
 
 <br>
 
@@ -81,7 +81,7 @@ ggplotly(p, tooltip =c("Women", "Date"))
 
 <br>
 
-## **All the Polls Used for the aggregation**.
+## **All the Polls Used for the aggregation**
 
 <br>
 
