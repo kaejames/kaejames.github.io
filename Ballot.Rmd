@@ -74,7 +74,7 @@ p<-ggplot(genericbal)+
         legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
         axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
         plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
-  scale_y_continuous(limits = c(35,55))
+  scale_y_continuous(limits = c(35,60))
   
 ggplotly(p, tooltip =c("Women", "Date"))  
 ``` 
@@ -89,9 +89,14 @@ ggplotly(p, tooltip =c("Women", "Date"))
 ```{r,out.width='100%', echo=FALSE}
 datatable(tbpolls,extensions = 'Buttons',rownames = FALSE, options = list(
     dom = 'Bfrtip',
-  buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),pageLength = 5
+  buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),pageLength = 8
   )
-) 
+) %>%
+  formatStyle(
+    'POLLSTER',
+    fontWeight = 'bold'
+    ) 
+  
 ```
  
 
