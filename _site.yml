@@ -2,15 +2,15 @@ name: "KAEJAMES"
 output_dir: "." 
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 navbar:
-  title: "KAEJAMES"
+  title: "Kae-james-Projects"
   left:
-  - text: "BIDEN"
+  - text: "Biden"
     href:  index.html
-  - text: "2022 MIDTERMS"
+  - text: "2022 Midterms"
     href:  Ballot.html 
-  - text: "ELECTION MAPS"
+  - text: "Election Maps"
     href:  maps.html
-  - text: "U.K POLLS"
+  - text: "U.K Polls"
     href:  uk.html
   right:
   - text: "Github"
