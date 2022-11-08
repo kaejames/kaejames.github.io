@@ -42,6 +42,20 @@ Australia held it’s federal election on May 21, 2022. The conservative coaliti
 
 <br>
 
+## <span style="color:  #000000;"> Brasil </span>
+
+Analysis of Brazilian Elections
+
+### <span style="color:  #000000;"> Rio de Janeiro </snap>
+
+State of Rio de Janeiro second round results for the presidential election.
+
+<img src="docs/rio_region.png" style="width:100%; solid; margin-center: 20px" align="center">
+
+The incumbent right-wing President Jair Bolsonaro won the state by **12%** after winning it by ***36%*** in 2018. Former president Lula got ***1.5 million more votes than PT candidate Haddad in 2018, Haddad received 2.8 million total votes*** and Bolsonaro lost 265,165 votes in 2022. More people voting for Lula closed the gap than people switching votes. 
+
+<br> 
+
 ## <span style="color: #16db65;"> Massachusetts </span>
 
 Analysis of local and statewide elections.
