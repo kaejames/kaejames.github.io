@@ -85,8 +85,19 @@ The 2022 Suffolk County District Attorney primary to fill out Rachel Rollins ter
 <img src="docs/suffolkDA2022.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 The primary was held on September 6th, 2022 among other local and statewide elections. DA Hayden won the primary by 7.1%, he narrowly won Boston and dominated in Revere and Winthrop and Arroyo won city of Chelsea by 12%. About 9.7% of the voters left their ballot blanks which was higher than Hayden's win margin. The turnout was also low by about 16,000 less voters compared to 2018. This primary was marred by controversy by both candidates and they were both not liked by the voters. Hayden's term ends in 2024 where he will likely face a better challenger. 
-
 <br>
+
+## <span style="color: #16db65;"> Michigan </span>
+
+Analysis of Michigan elections
+
+### <span style="color: #16db65;"> Abortion vs Governor </span>
+
+A comparison of how Michigan counties voted in the governor's race and the state prop 3.
+
+<img src="docs/2022_MI_GE.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+<p>Land doesn't vote! Republican candidate for governor, Dixon Tudor won the most counties followed by the Yes vote on Prop 3, incumbent Gov.Whitmer and lastly the No vote with just one county. The Yes received 52,420 more votes than Whitmer and ran 2% better statewide. The No lost with 61,254 few votes than Tudor for a 13% loss. Gov Whitmer running stronger in Wayne County where city of Detroit is located shows maybe the Yes vote was weaker with religious black and arab voters in the city.</p> </br>
 
 ## <span style="color: #f72585;">South Korea </span>
 
