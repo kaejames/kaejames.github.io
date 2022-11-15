@@ -10,8 +10,7 @@ output:
     
 ---
 
-
-Maps I made for election results using mainly QGIS which is an open source program.
+Visualizing election results from the past to current through map
 
 --------------------------------
 
@@ -98,6 +97,19 @@ A comparison of how Michigan counties voted in the governor's race and the state
 <img src="docs/2022_MI_GE.png" style="width:100%; solid; margin-center: 350px" align="center">
 
 Land doesn't vote! Republican candidate for governor, Dixon Tudor won the most counties followed by the Yes vote on Prop 3, incumbent Gov.Whitmer and lastly the No vote with just one county. The Yes received 52,420 more votes than Whitmer and ran 2% better statewide. The No lost with 61,254 few votes than Tudor for a 13% loss. Gov Whitmer running stronger in Wayne County where city of Detroit is located shows maybe the Yes vote was weaker with religious black and arab voters in the city. </br>
+
+## <span style="color: #cc3300;"> Montana </span>
+
+Analysis of Montana elections
+
+### <span style="color: #cc3300;"> Referendum 131 </span>
+
+Montana voters defeated an anti-abortion measure
+
+<img src="docs/MT_131.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Voters in the red state of Montana defeated **Referendum #131** pushed by anti-abortion groups by 5.2%. The measure was defeated beacause of strong support in the western and southern west part of the state. If the measure had passed, infants born alive at any stage of development would be "**legal persons**", require medical care to be provided to infants born alive after an induced labor, cesarean section, attempted abortion, or another method and establish a ***$50,000 fine and/or 20 years in prison as the maximum penalty for violating the law***. 
+<br>
 
 ## <span style="color: #f72585;">South Korea </span>
 
