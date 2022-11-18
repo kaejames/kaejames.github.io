@@ -55,11 +55,34 @@ The incumbent right-wing President Jair Bolsonaro won the state by **12%** after
 
 <br> 
 
+## <span style="color: #ff0066;"> Kenya </span>
+
+Analysis of Kenyan elections
+
+### <span style="color: #ff0066;"> 2013 Pres Election </span>
+
+2013 Presidential election was between two family dynasty, Kenyatta and Odinga and the first of two match ups. 
+
+<img src="docs/KEGE_13.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Uhuru Kenyatta beat Raila Odinga the ex-Prime Minister under President Kibwaki to become the president after he failed in 2002 and 2007 which followed violence across the country. This election broke along tribes with Uhuru who is of Kikuyu tribe, dominated in the central-midland area where Kikuyu's live and Odinga dominated in the west which is dominated by the Luo tribe. Odinga did well in the capital city, Nairobi which is diverse with all tribes and the coastal region of Mombasa. 
+
+
+### <span style="color: #ff0066;"> 2017 Pres Election </span>
+
+The 2017 was a re-match between President Uhuru and Raila Odinga(***the IEBC didn't produce constituency level results and only county***).  
+
+<img src="docs/KEGE_17.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+The 2017 election results were similar to 2013, Uhuru won big in the central and mid-lands while Odinga won big in the west and the coastal region. This election saw more than 3.5 million more voters than 2013 and Uhuru defeated Odinga by more than 9%.
+
+<br>
+
 ## <span style="color: #16db65;"> Massachusetts </span>
 
 Analysis of local and statewide elections.
 
-### <span style="color: #16db65;"> 2012 Question #2 </span>
+## <span style="color: #16db65;"> Question #2 </span>
 
 Voters in 2012 had the choice of voting Yes or No on question 2 for physicians to prescribe medication to terminally ill patients to end their lives.
 
