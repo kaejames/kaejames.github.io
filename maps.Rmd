@@ -90,7 +90,7 @@ Raila Odinga came the closest to winning in 2022, he lost by 1.6% or 233,211 vot
 
 Analysis of local and statewide elections.
 
-## <span style="color: #16db65;"> Question #2 </span>
+### <span style="color: #16db65;"> Question #2 </span>
 
 Voters in 2012 had the choice of voting Yes or No on question 2 for physicians to prescribe medication to terminally ill patients to end their lives.
 
