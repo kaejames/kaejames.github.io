@@ -55,6 +55,20 @@ The incumbent right-wing President Jair Bolsonaro won the state by **12%** after
 
 <br> 
 
+## <span style="color: ##ffbf00;"> Georgia </span>
+
+Georgia election analysis
+
+### <span style="color: ##ffbf00;"> 2022 Senate </span>
+
+2022 Senatorial election between incumbent Sen.Warnock and former Georgia Bulldawg standout Herschel Walker.
+
+<img src="docs/GASEN.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+This is a comparison of the election day vote vs advanced + mail vote. Sen.Warnock banked a 256,186 vote edge heading to election day where Walker won by 218,511. The election day vote was only 36% of the total vote compared to 64% of the advanced + mail vote. Warnock ended up winning the total vote by 37,675, falling short by less than 2,000 of an outright win to avoid a runoff. 
+
+<br>
+
 ## <span style="color: #ff0066;"> Kenya </span>
 
 Analysis of Kenyan elections
