@@ -104,7 +104,23 @@ Raila Odinga came the closest to winning in 2022, he lost by 1.6% or 233,211 vot
 
 Analysis of local and statewide elections.
 
-### <span style="color: #16db65;"> Question #2 </span>
+### <span style="color: #16db65;"> 2022 Question #1 </span>
+
+Question #1 was put forward to add 4% tax on income above 1 million over the 5% flat tax.
+
+<img src="docs/MA2022Q1.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+Question #1 did the best in Suffolk County and did poorly in Worcester County than expected. The measure failed in Norfolk and Plymouth County towns as expected for it's wealth and conservative towns. 
+
+**In depth look at how the 30 richest towns/cities voted.**
+
+<img src="docs/MA30TOWNS.png" style="width:100%; solid; margin-center: 350px" align="center">
+
+The towns with over $200,000 median household income voted against the measure with Dover, Wellesley and Weston overwhelmingly voting against. 
+
+<br>
+
+### <span style="color: #16db65;"> 2012 Question #2 </span>
 
 Voters in 2012 had the choice of voting Yes or No on question 2 for physicians to prescribe medication to terminally ill patients to end their lives.
 
