@@ -116,7 +116,7 @@ Question #1 did the best in Suffolk County and did poorly in Worcester County th
 
 <img src="docs/MA30TOWNS.png" style="width:100%; solid; margin-center: 350px" align="center">
 
-The towns with over $200,000 median household income voted against the measure with Dover, Wellesley and Weston overwhelmingly voting against. 
+The towns with over $200,000 median household income voted against the measure with Dover, Wellesley and Weston overwhelmingly voting against. Question #1 surprisingly won in Carlisle, Wayland, Lexington and Manchester-by-the-sea which are among the top 10 richest towns. 
 
 <br>
 
