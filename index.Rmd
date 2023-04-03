@@ -24,11 +24,13 @@ library(dplyr)
 ```
 
 ```{r, echo=FALSE}
-approval<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet = "BidenAVG") 
+approval<- read_excel("Biden.xlsx", sheet = "BidenAVG", 
+    col_types = c("date", "numeric", "text")) 
 knitr::opts_chunk$set(error = TRUE)
 ```
 ```{r, echo=FALSE}
-under35<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet = "U35AVG") 
+under35 <- read_excel("Biden.xlsx", sheet = "U35AVG", 
+    col_types = c("date", "numeric", "text")) 
 knitr::opts_chunk$set(error = TRUE)
 ```
 ```{r, echo=FALSE}
