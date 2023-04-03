@@ -23,15 +23,15 @@ library(lubridate)
 library(dplyr)
 ```
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE} 
 approval<- read_excel("Biden.xlsx", sheet = "BidenAVG", 
     col_types = c("date", "numeric", "text")) 
-knitr::opts_chunk$set(error = TRUE)
+knitr::opts_chunk$set(warning  = FALSE) 
 ```
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 under35 <- read_excel("Biden.xlsx", sheet = "U35AVG", 
     col_types = c("date", "numeric", "text")) 
-knitr::opts_chunk$set(error = TRUE)
+knitr::opts_chunk$set(warning = FALSE) 
 ```
 ```{r, echo=FALSE}
 Biden<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet = "Biden") 
@@ -42,7 +42,7 @@ knitr::opts_chunk$set(error = TRUE)
 
 <br>
 
-```{r,out.width='100%', echo=FALSE}
+```{r,out.width='100%', echo=FALSE, warning=FALSE, message=FALSE}
 p<-ggplot(approval)+
   geom_line(aes(x=Date, y=Results,colour=Key), lwd=2) +
   
@@ -61,7 +61,7 @@ ggplotly(p, tooltip =c("Results", "Date"))
 
 </br> 
 
-```{r,out.width='100%', echo=FALSE}
+```{r,out.width='100%', echo=FALSE, warning=FALSE, message=FALSE}
 p<-ggplot(under35)+
   geom_line(aes(x=Date, y=Results,colour=Key, group=Key), lwd=2) +
   labs(x="", y="", title = "Biden Job Approval - Gen Z/Millennials",
