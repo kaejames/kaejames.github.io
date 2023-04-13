@@ -72,7 +72,7 @@ ggplotly(p, tooltip =c("Aggregate", "Date"))
 
 <br>
 
-<center style="color:#000000;"> **2019 General Election Results and Predictions Based on Aggregated Polls** </center> 
+<center style="color:#000000;"> **2019 General Election Results and Seats Predictions Based on Aggregated Polls** </center> 
 
 <br>
 
