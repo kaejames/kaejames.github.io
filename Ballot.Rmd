@@ -1,8 +1,35 @@
 ---
-title: "Congressional Polling & Women Voters"
+title: "2022 House Polling & Women Voters"
 output: html_document
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 --- 
+<br>
+
+## **2022 House Elections Results. Republican gained 9 seats for majority with 50.6% to Democrats 47.8%. The gains for Republicans came from new seat created in Florida and shocking upsets in state of New York.**
+
+<br>
+
+```{r,out.width='100%', echo=FALSE} 
+house_of_reps <- data.frame(
+  party = c("Vacancies","Republicans", "Democrats", "Vacancies"),
+  seats = c(0, 222, 213, 0  ),
+  color = c("gray", "indianred2", "deepskyblue", "gray")
+) 
+house_of_reps <- house_of_reps %>% 
+  mutate(party = as.character(party), color = as.character(color)) %>%
+  parliament_data(election_data = .,
+                            parl_rows = 8,
+                            party_seats = .$seats,
+                            type = 'semicircle')
+ggplot(data = house_of_reps) +
+  geom_parliament_seats(aes(x = x,  y = y, color = party)) +
+  theme_ggparliament() +
+  labs(title = "2022 U.S House Election Results")+
+  theme(legend.position = "bottom")+
+  scale_color_manual(values = house_of_reps$color, 
+                     limits = house_of_reps$party)  
+ 
+```  
 
 <br>
 
@@ -18,15 +45,18 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 ```{r setup, include=FALSE}
 library(dygraphs)
 library(flexdashboard)  
-library(readxl)
+library(readxl) 
 library(ggplot2)
 library(plotly)
 library(knitr)
 library(plyr)
 library(scales) 
 library(lubridate) 
+library(magrittr)
+library(tidyverse)
 library(dplyr)
 library(DT) 
+library(ggparliament) 
 ```
 
 ```{r, echo=FALSE}
@@ -81,7 +111,7 @@ ggplotly(p, tooltip =c("Women", "Date"))
 
 <br>
 
-## **All the tolls used for the average**
+## **All the polls used for the average**
 
 <br>
 
