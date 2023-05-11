@@ -4,7 +4,7 @@ output: html_document
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 ---
 <br>
-Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025***.
+United Kingdom/Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025***.
 
 <br>
 
