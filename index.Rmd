@@ -4,7 +4,7 @@ output: html_document
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
 ---
 <br>
-President Biden approval tracking from January 2021 after he became the president. Tracking all registered voters and Gen Z/Millennials. The polling firms used are **Fox News Polls, Monmouth University, Quinnipiac University,Echelon Insights, Marist College and NYT/Sienna**.
+President Biden approval tracking from January 2021 after he became the president. Tracking all registered/likely voters and Gen Z/Millennials. The polling firms used are **Fox News Polls, Monmouth University, Quinnipiac University,Echelon Insights, Marist College and NYT/Sienna**.
 </br>
 
 -----------------------------
