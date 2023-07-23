@@ -5,13 +5,13 @@ navbar:
   title: "kaejamesprojects"
   left:
   - text: "Biden"
-    href:  Biden.html
+    href:  index.html
   - text: "Congress"
-    href:  Congress.html 
+    href:  Ballot.html 
   - text: "Election Maps"
-    href:  Maps.html
+    href:  maps.html
   - text: "U.K Polls"
-    href:  UK.html
+    href:  uk.html
   right:
   - text: "Github"
     icon: fa-github
