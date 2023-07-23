@@ -33,7 +33,7 @@ under35 <- read_excel("Biden.xlsx", sheet = "U35AVG",
     col_types = c("date", "numeric", "text")) 
 knitr::opts_chunk$set(warning = FALSE) 
 ```
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 Biden<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/Biden.xlsx"), sheet = "Biden") 
 knitr::opts_chunk$set(error = TRUE)
 ```
