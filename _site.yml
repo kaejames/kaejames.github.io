@@ -6,7 +6,7 @@ navbar:
   left:
   - text: "Biden"
     href:  index.html
-  - text: "Congress"
+  - text: "US Elections"
     href:  Ballot.html 
   - text: "Election Maps"
     href:  maps.html
