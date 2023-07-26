@@ -1,14 +1,22 @@
 ---
-title: "Opinion Polls"
-output: html_document
+title: "Battle For Westminister"
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+    
+    includes:
+       in_header: tag.html 
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
+
 ---
-<br>
+
 United Kingdom/Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025***.
 
-<br>
+---------------------------------
 
-> ### <span style="color: #f72585;"> Major Political Events in 2022</span>
+
+## <span style="color: #f72585;"> Major Political Events in 2022</span>
 
 ***Boris Johnson stepped down as Prime Minister on September 5th 2022 after MP Lizz Truss won the conservative leadership poll and was sworn as the new Prime Minister on the 6th***
 
@@ -24,7 +32,6 @@ United Kingdom/Great Britain[***England,Scotland and Wales***] opinion polling a
 
 ***On March 28th 2023, Humza Yousaf became the First Minister of Scotland replacing Nicola Sturgeon***
 
-----------
 
 ```{r setup, include=FALSE}
 library(dygraphs)
@@ -50,13 +57,13 @@ tablepol<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx"
 knitr::opts_chunk$set(error = TRUE)
 ```
 
-
+## <span style="color: #4361ee;"> Polling Aggregate </span> 
 
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(ukpolls)+
   geom_line(aes(x=Date, y=Aggregate,colour=Party, group=Party), lwd=2) +
   
-  labs(x="", y="", title = "Opinion Polls",
+  labs(x="", y="", title = "",
        caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
   scale_color_manual(values =c("deepskyblue","green", "indianred2", "gold","yellow")) +
   theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
@@ -72,7 +79,7 @@ ggplotly(p, tooltip =c("Aggregate", "Date"))
 
 <br>
 
-<center style="color:#000000;"> **2019 General Election Results and Seats Predictions Based on Aggregated Polls** </center> 
+### <span style="color: #4361ee;"> Seats Predictions </span>  
 
 <br>
 
@@ -91,4 +98,3 @@ datatable(tablepol,extensions = 'Buttons',rownames = FALSE, options = list(
     )
   ) 
 ```
-The Conservative party maintained it's majority through 2021 and could have easily kept the majority in an election. The Labour party rebounded from it's disastrous 2019 while Liberal Democrats were squeezed by the two main parties. SNP stayed strong in Scotland and it increased it's share of seats. Labour overtook the ruling Conservatives in January 2022, were ahead by 6%(39%-33%) and predicted to gain over 100 seats just short of majority(303). **When Lizz Truss became the Prime Minister, Labour increased their lead to 10% which would give them a majority with over 330 seats and the Conservatives losing about 140 seats**.   
