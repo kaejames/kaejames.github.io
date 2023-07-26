@@ -1,17 +1,33 @@
 ---
 title: "US Elections"
-output: html_document
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+    
+    includes:
+       in_header: tag.html
 date: "`r format(Sys.Date(), '%m/ %d/ %y')`" 
---- 
-<br>
 
-**2022 House Elections Results. Republican gained 9 seats for majority with 50.6% to Democrats 47.8%. The gains for Republicans came from new seat created in Florida and shocking upsets in state of New York.**
+
+--- 
+
+U.S Elections Polling
+
+-------------------------
+
+## <span style="color: #4361ee;"> 2022 US House Elections </span> 
+
+
+**Republicans gained 9 seats for majority with 50.6% to Democrats 47.8%. The gains for Republicans came from new seat created in Florida and shocking upsets in state of New York.**
 
 <img src="docs/house_22.png" style="width:100%; solid; margin-center: 20px" align="center">
  
 
 <br>
 
+
+### <span style="color: #4361ee;"> **Polling Average** </span>
 **Polling average of generic ballot and women voters for the 2022 midterms elections, polls used are at the bottom of the page**.
 
 <br>
@@ -54,9 +70,16 @@ tbpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/midterms22.xlsx"), 
 knitr::opts_chunk$set(error = TRUE)
 ```
 
- 
-<br> 
- 
+```{r, echo=FALSE}
+BvT<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/US2024.xlsx"), sheet = "BvT") 
+knitr::opts_chunk$set(error = TRUE)
+``` 
+
+```{r, echo=FALSE}
+BvD<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/US2024.xlsx"), sheet = "BvD") 
+knitr::opts_chunk$set(error = TRUE)
+``` 
+
 ```{r,out.width='100%', echo=FALSE}
 p<-ggplot(genericbal)+
   geom_line(aes(x=Date, y=Ballot,colour=Party, group=Party), lwd=2) +
@@ -89,11 +112,6 @@ p<-ggplot(genericbal)+
 ggplotly(p, tooltip =c("Women", "Date"))  
 ``` 
 
-<br>
-
-## **All the polls used for the average**
-
-<br>
 
 
 ```{r,out.width='100%', echo=FALSE}
@@ -109,4 +127,41 @@ datatable(tbpolls,extensions = 'Buttons',rownames = FALSE, options = list(
   
 ```
  
+## <span style="color: #4361ee;"> 2024 U.S Presidential Election </span> 
 
+Biden made it official on April 2023 that he will run for re-election. Ex-president Trump announced in November 2022 that he will seek the republican nomination for president. Trump is the favorite for the gop against DeSantis. 
+
+### <span style="color: #4361ee;"> **Biden vs Trump** </span>
+
+```{r,out.width='100%', echo=FALSE}
+p<-ggplot(BvT)+
+  geom_line(aes(x=Date, y=Share,colour=Candidates, group=Candidates), lwd=2) +
+  labs(x="", y="", title = "",
+       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
+  scale_color_manual(values =c("deepskyblue","indianred2")) +
+  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
+        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
+        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
+        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
+  scale_y_continuous(limits = c(35,55))
+  
+ggplotly(p, tooltip =c("Share", "Date"))  
+``` 
+### <span style="color: #4361ee;"> **Biden vs DeSantis** </span>
+
+```{r,out.width='100%', echo=FALSE}
+p<-ggplot(BvD)+
+  geom_line(aes(x=Date, y=Share,colour=Candidates, group=Candidates), lwd=2) +
+  labs(x="", y="", title = "",
+       caption = "source;Echelon Insights, Fox News Poll & Monmouth University")+
+  scale_color_manual(values =c("deepskyblue","indianred2")) +
+  theme(plot.title = element_text(color = "black", family = "Ubuntu",  size = 17, face="bold", hjust = 0),
+        plot.caption = element_text(color = "black", size=13, face = "italic", family = "Ubuntu"),
+        legend.text = element_text(face = "bold"),axis.title.x = element_text(family = 'Ubuntu', face = 'bold'),
+        axis.text.x = element_text(face = 'bold', angle = 0, hjust = 0.5),axis.text.y = element_text(face = "bold"),
+        plot.subtitle = element_text(color = "black",family="Ubuntu", size = 13)) +
+  scale_y_continuous(limits = c(35,55))
+  
+ggplotly(p, tooltip =c("Share", "Date"))  
+``` 
