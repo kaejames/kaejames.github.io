@@ -11,7 +11,7 @@ date: "`r format(Sys.Date(), '%m/ %d/ %y')`"
 
 ---
 
-United Kingdom/Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025***.
+Great Britain[***England,Scotland and Wales***] opinion polling aggregation from public polls for the next general election which will likely be held in  ***winter of 2024 or January 2025***.
 
 ---------------------------------
 
@@ -48,7 +48,8 @@ library(DT)
 ```
 
 ```{r, echo=FALSE}
-ukpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx"), sheet = "chart") 
+ukpolls<-read_excel(("~/Documents/RSTUDIO/kaejames.github.io/GreatBritain.xlsx"), sheet = "chart", col_types = c("date", 
+        "numeric", "text", "numeric")) 
 knitr::opts_chunk$set(error = TRUE)
 ```
 
