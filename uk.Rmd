@@ -16,21 +16,6 @@ Great Britain[***England,Scotland and Wales***] opinion polling aggregation from
 ---------------------------------
 
 
-## <span style="color: #f72585;"> Major Political Events in 2022</span>
-
-***Boris Johnson stepped down as Prime Minister on September 5th 2022 after MP Lizz Truss won the conservative leadership poll and was sworn as the new Prime Minister on the 6th***
-
-***On September 23rd 2022, PM Liz Truss and Chancellor of the Exchequer Kwasi Kwarteng announced economic policies that were refereed to as a "mini budget". The stock market didn't like the new policies and the sterling pound dropped to it's lowest against the dollar since the 1980's. This caused the Conservative party to drop in polls, to it's lowest since the late 90's ahead on 1997 Labor landslide victory***. 
-
-***On October 14th 2022, PM Truss fired/sacked Chancellor of the Exchequer Kwasi Kwarteng in the morning after returning from Washington D.C where he held talks with IMF. Jeremy Hunt was appointed Chancellor of the Exchequer***
-
-***On October 19th 2022, right winger Home Secretary Suella Braveman was fired/sacked by PM Truss for email breach and replaced by moderate MP Grant Shapps in a sign the Truss government was moving away from the right and to the middle***
-
-***On October 20th 2022, Prime Minister Truss announced her resignation as the leader Conservative party leader and the premiership. She became the shortest serving PM in the United Kingdom history at only 44 days***
-
-***On October 24th 2022, MP Rishi Sunak won the snap conservative leadership election among the MP's which automatically made him the Prime Minister to replace the outgoing Lizz Truss. Sunak became the first ethnic leader of the United Kingdom history***
-
-***On March 28th 2023, Humza Yousaf became the First Minister of Scotland replacing Nicola Sturgeon***
 
 
 ```{r setup, include=FALSE}
